@@ -1,6 +1,6 @@
 {
   "settings": {
-    "name": "GLAS & WAND INSPIRATIONS -clone-clone-clone-clone",
+    "name": "GLAS & WAND -clone-clone-clone-clone-clone-clone-clone-clone-clone-clone",
     "currentPage": "index.html",
     "theme": {
       "name": "mobirise3",
@@ -29,7 +29,7 @@
     "path": "@PROJECT_PATH@",
     "versionFirst": "4.12.1",
     "siteFonts": [],
-    "uniqCompNum": 234,
+    "uniqCompNum": 198,
     "versionPublish": "4.12.3",
     "screenshot": "screenshot.png",
     "imageResize": true,
@@ -45,7 +45,7 @@
     "index.html": {
       "settings": {
         "main": true,
-        "title": "HOME ",
+        "title": "Home",
         "meta_descr": "",
         "header_custom": "",
         "footer_custom": "",
@@ -55,23 +55,19 @@
         {
           "_inherit": "menu",
           "_params": {
-            "logo": true,
-            "showBrand": false,
+            "logo": false,
+            "showBrand": true,
             "hideButtons": false,
             "sticky": true,
             "collapsed": true,
             "transparent": false,
             "bgColor": "#000000",
-            "fontSize": "1.7",
-            "fontName": {
-              "name": "Roboto Condensed",
-              "url": "https://fonts.googleapis.com/css?family=Roboto+Condensed:400,300,700",
-              "css": "'Roboto Condensed', sans-serif"
-            },
+            "fontSize": 0.75,
+            "fontName": {},
             "fontColor": "#ffffff",
             "fontHoverColor": "@primaryColor"
           },
-          "items": "<li class=\"nav-item dropdown open\"><a data-app-btn=\"true\" class=\"nav-link link dropdown-toggle\" href=\"page4.html\" data-toggle=\"dropdown-submenu\" aria-expanded=\"true\">HOME&nbsp;</a><div class=\"dropdown-menu\"><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"https://mobirise.com/\"></a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"https://mobirise.com/\"></a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"https://mobirise.com/\">&nbsp;</a></div></li><li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"https://mobirise.com/\" aria-expanded=\"false\">INTERIEUR &nbsp;</a></li><li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"page4.html\" aria-expanded=\"false\">EXTERIEUR&nbsp;</a></li><li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"page4.html\" aria-expanded=\"false\">GLASS &amp; WALL</a></li><li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"https://mobirise.com/\">CONTACT&nbsp;</a></li><li class=\"nav-item nav-btn\"><a data-app-btn=\"true\" data-button=\"\" data-app-selector=\".btn\" class=\"nav-link btn btn-primary-outline btn-primary\" href=\"https://youtu.be/ZjwijA4UA2A\">BEKIJK ONZE &nbsp;BEDRIJFSFILM&nbsp;</a></li><li class=\"nav-item nav-btn\"><a data-app-btn=\"true\" data-button=\"\" data-app-selector=\".btn\" class=\"nav-link btn btn-primary-outline btn-primary\" href=\"assets/files/INTRODUCTIE-VITRI-VINCI.pdf\">VITRI - VINCI LOOKBOOK&nbsp;</a></li>",
+          "items": "<li class=\"nav-item dropdown\"><a data-app-btn=\"true\" class=\"nav-link link dropdown-toggle\" href=\"https://mobirise.com/\" data-toggle=\"dropdown-submenu\" aria-expanded=\"false\">HOME&nbsp;</a><div class=\"dropdown-menu\"><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"https://mobirise.com/\">OVER ONS&nbsp;</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"https://mobirise.com/\">MISSIE&nbsp;</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"https://mobirise.com/\">VISIE&nbsp;</a></div></li><li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"https://mobirise.com/\" aria-expanded=\"false\">INTERIEUR &nbsp;</a></li><li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"https://mobirise.com/\" aria-expanded=\"false\">EXTERIEUR&nbsp;</a></li><li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"https://mobirise.com/\">CONTACT&nbsp;</a></li><li class=\"nav-item nav-btn\"><a data-app-btn=\"true\" data-button=\"\" data-app-selector=\".btn\" class=\"nav-link btn btn-primary-outline btn-primary\" href=\"https://youtu.be/ZjwijA4UA2A\">BEKIJK ONZE &nbsp;BEDRIJFSFILM&nbsp;</a></li><li class=\"nav-item nav-btn\"><a data-app-btn=\"true\" data-button=\"\" data-app-selector=\".btn\" class=\"nav-link btn btn-primary-outline btn-primary\" href=\"assets/files/VITRI-VINCI.pdf\">VIDI VINCI LOOKBOOK&nbsp;</a></li>",
           "_tags": [
             "Theme"
           ],
@@ -80,8 +76,7 @@
               "display": "none !important"
             },
             ".navbar-caption": {
-              "color": "#ffffff",
-              "font-size": "20px"
+              "color": "#ffffff"
             },
             ".navbar-toggler": {
               "color": "#ffffff"
@@ -90,15 +85,13 @@
               "background-color": "#ffffff"
             },
             ".link, .dropdown-item": {
-              "color": "#ffffff",
-              "googleLink": "https://fonts.googleapis.com/css?family=Roboto+Condensed:400,300,700",
-              "font-family": "'Roboto Condensed', sans-serif"
+              "color": "#ffffff"
             },
             ".link": {
-              "font-size": "1.7rem"
+              "font-size": "0.75rem"
             },
             ".dropdown-item, .nav-dropdown-sm .link": {
-              "font-size": "1.841rem"
+              "font-size": "0.812rem"
             },
             ".link:hover, .dropdown-item:hover, .link:focus, .dropdown-item:focus": {
               "color": "@primaryColor"
@@ -124,38 +117,23 @@
             },
             ".link[aria-expanded=\"true\"], .dropdown-item[aria-expanded=\"true\"]": {
               "color": "#c0a375!important"
-            },
-            "A": {
-              "font-size": "8px",
-              "font-family": "'Roboto', sans-serif",
-              "googleLink": "https://fonts.googleapis.com/css?family=Roboto:400,300,700"
-            },
-            ".btn": {
-              "font-family": "'Roboto', sans-serif",
-              "googleLink": "https://fonts.googleapis.com/css?family=Roboto:400,300,700",
-              "font-size": "20px"
             }
           },
           "logo": {
             "image": {
-              "src": "@PROJECT_PATH@/assets/images/logo-glas-en-wand-526x128.png",
+              "active": true,
+              "src": "@THEME_PATH@/components/_images/logo.png",
               "height": 128,
               "alt": "Mobirise",
-              "link": "page4.html",
-              "title": "",
-              "linkInNewWindow": false,
-              "active": true
+              "link": "https://mobirise.com"
             },
             "iconFont": {
               "class": "mbr-iconfont mbr-iconfont-menu",
-              "linkInNewWindow": false,
-              "name": "home",
-              "family": "MobiriseIcons",
               "link": "https://mobirise.com",
               "size": 0
             }
           },
-          "brand": "<a class=\"navbar-caption\" data-app-btn=\"true\" data-app-selector=\".navbar-caption\" href=\"https://mobirise.com\" data-app-placeholder=\"Type Brand Name\" data-toolbar=\"-mbrBtnMove,-mbrBtnAdd,-mbrBtnRemove,mbrColor\">GLAS 7WAND&nbsp;</a>",
+          "brand": "<a class=\"navbar-caption\" data-app-btn=\"true\" data-app-selector=\".navbar-caption\" href=\"https://mobirise.com\" data-app-placeholder=\"Type Brand Name\" data-toolbar=\"-mbrBtnMove,-mbrBtnAdd,-mbrBtnRemove,mbrColor\">GLAS &amp; WAND&nbsp;</a>",
           "_name": "ext.menu",
           "_anchor": "ext_menu-5"
         },
@@ -219,41 +197,6 @@
           }
         },
         {
-          "_styles": {
-            ".mbr-section-title, .mbr-section-subtitle": {
-              "text-align": "center"
-            },
-            ".mbr-section-title": {
-              "text-align": "center",
-              "font-family": "'Roboto', sans-serif",
-              "googleLink": "https://fonts.googleapis.com/css?family=Roboto:400,300,700",
-              "font-size": "16px",
-              "color": "#ffffff"
-            },
-            ".mbr-section-subtitle": {
-              "color": "#ffffff",
-              "text-align": "center"
-            },
-            ".mbr-section-subtitle SPAN": {
-              "font-family": "'Roboto', sans-serif",
-              "googleLink": "https://fonts.googleapis.com/css?family=Roboto:400,300,700"
-            }
-          },
-          "_params": {
-            "showMeta": true,
-            "paddingTop": 1,
-            "paddingBottom": 1,
-            "bgColor": "#000000"
-          },
-          "title": "<span style=\"font-weight: normal;\">OM TE ONDEKKEN NAAR BENEDEN SCROLLEN&nbsp;</span>",
-          "meta": "<span style=\"font-style: normal;\">BELEEF GLAS &nbsp;&amp; WAND&nbsp;</span>",
-          "_tags": [
-            "Theme"
-          ],
-          "_name": "header3",
-          "_anchor": "header3-5i"
-        },
-        {
           "_params": {
             "autoplay": true,
             "fullScreen": true,
@@ -265,21 +208,6 @@
             "slides": [
               {
                 "image": "@PROJECT_PATH@/assets/images/-atrapm-2000x1333.jpeg",
-                "active": true,
-                "showButtons": true,
-                "showText": false,
-                "showTitle": true,
-                "playVideo": false,
-                "videoUrl": "https://www.youtube.com/watch?v=uNCr7NdOJgw",
-                "title": "<br><br><br><br><br><br><span style=\"font-weight: normal;\">UW INSPIRATIEBRON VOOR GLAS IEDEEËN&nbsp;</span><br><br>",
-                "overlay": false,
-                "contentAlign": "right",
-                "text": "Choose from the large selection of latest pre-made blocks - intros with forms, counters, countdowns, accordions, tabs, iconboxes, progress bars, testimonials sliders and more.",
-                "buttons": " <a data-app-btn=\"true\" class=\"btn btn-lg btn-primary-outline btn-primary\" href=\"https://myalbum.com/album/o3x5MteghViC\" data-toolbar=\"-mbrBtnMove\">BEKIJK ONZE GLAS &amp; WAND BROCHURE&nbsp;</a>",
-                "alt": ""
-              },
-              {
-                "image": "@PROJECT_PATH@/assets/images/23783820-1911509905532970-873380955820434208-o-979x654.jpg",
                 "active": false,
                 "showButtons": true,
                 "showText": false,
@@ -291,6 +219,21 @@
                 "contentAlign": "right",
                 "text": "Choose from the large selection of latest pre-made blocks - intros with forms, counters, countdowns, accordions, tabs, iconboxes, progress bars, testimonials sliders and more.",
                 "buttons": " <a data-app-btn=\"true\" class=\"btn btn-lg btn-primary-outline btn-primary\" href=\"https://myalbum.com/album/o3x5MteghViC\" data-toolbar=\"-mbrBtnMove\">BEKIJK ONZE GLAS &amp;WAND BROCHURE&nbsp;</a>",
+                "alt": ""
+              },
+              {
+                "image": "@PROJECT_PATH@/assets/images/1600-uw-inspiratie-bron-1600x1065.jpeg",
+                "active": true,
+                "showButtons": false,
+                "showText": false,
+                "showTitle": true,
+                "playVideo": false,
+                "videoUrl": "https://www.youtube.com/watch?v=uNCr7NdOJgw",
+                "title": "<span style=\"font-weight: normal;\">GALS &amp; WAND PASSIONS FOR GLASS</span>&nbsp;",
+                "overlay": true,
+                "contentAlign": "center",
+                "text": "Fullscreen slider with breath-taking pan & zoom also known as \"KenBurns\" effect and parallax transition between slides.",
+                "buttons": " <a data-app-btn=\"true\" class=\"btn btn-lg btn-white btn-white-outline\" href=\"https://mobirise.com\" data-toolbar=\"-mbrBtnMove\">BEKIJK ONZE GLAS &amp; WAND BROCHURE&nbsp;</a>",
                 "alt": ""
               }
             ]
@@ -307,11 +250,6 @@
               "font-family": "'Roboto', sans-serif",
               "googleLink": "https://fonts.googleapis.com/css?family=Roboto:400,300,700",
               "text-align": "left"
-            },
-            ".btn": {
-              "font-family": "'Roboto', sans-serif",
-              "googleLink": "https://fonts.googleapis.com/css?family=Roboto:400,300,700",
-              "font-size": "24px"
             }
           }
         },
@@ -387,8 +325,8 @@
           "subtitle1": "<span style=\"font-style: normal;\">IS ER VOOR DE KLANT</span>&nbsp;",
           "caption1": "&nbsp;<br>Dynamische, ervaren, flexibele, innovatieve en inspirerende mensen gaan schuil achter de producten en diensten van Glas &amp; Wand. <br>Meer dan 40 jaar ervaring in glas en meer dan 20 jaar in wanden, waarbij de interesse voor de producten en haar mooie toepassingen gevoeld wordt en met u wordt gedeeld.&nbsp;<br>",
           "title2": "GLAS &nbsp;&amp; WAND&nbsp;",
-          "subtitle2": "<span style=\"font-style: normal;\">SYNONIEM VOOR&nbsp;</span>",
-          "caption2": "Adviezen, productie, distributie, uitvoering , service en garantie .<br>Zij streeft naar de hoogst betaalbare kwaliteit bij alle glas en wandproducten die zij voert.\n<br>Bij de keuzen die gemaakt worden bij basismaterialen, halffabricaten en outillage wordt nauwkeurig op de kwaliteit gelet, zodat het bedrijf met haar activiteiten een optimaal eindproduct of dienst kan garanderen.&nbsp;<br>",
+          "subtitle2": "<span style=\"font-style: normal;\">IS SINONIEM VOOR&nbsp;</span>",
+          "caption2": "&nbsp;Adviezen, produktie, distributie, uitvoering , service en garantie .<br>Zij streeft naar de hoogst betaalbare kwaliteit bij alle glas en wandproducten die zij voert.\n<br>Bij de keuzen die gemaakt worden bij basismaterialen, halffabricaten en outillage wordt nauwkeurig op de kwaliteit gelet, zodat het bedrijf met haar activiteiten een optimaal eindproduct of dienst kan garanderen.&nbsp;<br>",
           "title3": "Web Fonts",
           "subtitle3": "Google has a highly exhaustive list of fonts",
           "caption3": "Google has a highly exhaustive list of fonts compiled into its web font platform and Mobirise makes it easy for you to use them on your website easily and freely.",
@@ -428,9 +366,6 @@
               "googleLink": "https://fonts.googleapis.com/css?family=Roboto:400,300,700",
               "font-size": "30px",
               "color": "#c0a375"
-            },
-            ".card-subtitle SPAN": {
-              "font-size": "24px"
             }
           },
           "_anchor": "extFeatures3-33"
@@ -452,22 +387,22 @@
                 "videoPreview": "@THEME_PATH@/components/_images/gallery/preview.jpg",
                 "playVideo": false,
                 "videoUrl": "https://www.youtube.com/watch?v=uNCr7NdOJgw",
-                "image": "@PROJECT_PATH@/assets/images/13582111-1354831214534178-6700541715183522695-o-5-900x1024.jpeg",
-                "thumb": "@PROJECT_PATH@/assets/images/13582111-1354831214534178-6700541715183522695-o-5-900x1024-564x423.jpeg",
+                "image": "@PROJECT_PATH@/assets/images/1600-uw-inspiratie-bron-1600x1065.jpeg",
+                "thumb": "@PROJECT_PATH@/assets/images/1600-uw-inspiratie-bron-1600x1065-800x600.jpeg",
                 "alt": "",
                 "title": "",
-                "caption": "GLAS &amp; WAND PRODUCTEN LIJNEN&nbsp;"
+                "caption": "GLAS &amp; WAND PRODUCTEN LIJN&nbsp;"
               },
               {
                 "tags": "Awesome",
                 "videoPreview": "@THEME_PATH@/components/_images/gallery/preview.jpg",
                 "playVideo": false,
                 "videoUrl": "https://www.youtube.com/watch?v=uNCr7NdOJgw",
-                "image": "@PROJECT_PATH@/assets/images/i-wallspace00007-1-2000x1500.jpeg",
-                "thumb": "@PROJECT_PATH@/assets/images/i-wallspace00007-1-2000x1500-800x600.jpeg",
+                "image": "@PROJECT_PATH@/assets/images/home-5-1600-1600x1200.jpeg",
+                "thumb": "@PROJECT_PATH@/assets/images/home-5-1600-1600x1200-800x600.jpeg",
                 "alt": "",
                 "title": "",
-                "caption": "GLAS &amp; &nbsp;WALL SYSTEMS &nbsp;",
+                "caption": "GLAS &amp; &nbsp;INTERIEUR WAND SYTEEM WANDEN&nbsp;",
                 "active": false
               },
               {
@@ -476,7 +411,7 @@
                 "playVideo": false,
                 "videoUrl": "https://www.youtube.com/watch?v=uNCr7NdOJgw",
                 "image": "@PROJECT_PATH@/assets/images/-ahome-4-1600x1188.jpeg",
-                "thumb": "@PROJECT_PATH@/assets/images/ahome-4-1600x1188-800x603.jpeg",
+                "thumb": "@PROJECT_PATH@/assets/images/ahome-4-1600x1188-800x600.jpeg",
                 "alt": "",
                 "title": "",
                 "caption": "GLAS &amp; WAND INTERIEUR BADKAMERS &nbsp;"
@@ -490,7 +425,7 @@
                 "thumb": "@PROJECT_PATH@/assets/images/home-3-1600-1600x1067-800x600.jpeg",
                 "alt": "",
                 "title": "",
-                "caption": "GLAS &amp; WAND EXTERIEUR &nbsp;BOUWGLAS&nbsp;",
+                "caption": "GLAS &amp; WAND EXTERIEUR GLAS BOUWGLAS&nbsp;",
                 "active": true
               }
             ]
@@ -501,15 +436,7 @@
             "Theme"
           ],
           "_name": "gallery1",
-          "_anchor": "gallery1-4q",
-          "_styles": {
-            ".mbr-gallery-item > div > span": {
-              "color": "#ffffff",
-              "font-family": "'Roboto', sans-serif",
-              "googleLink": "https://fonts.googleapis.com/css?family=Roboto:400,300,700",
-              "font-size": "20px"
-            }
-          }
+          "_anchor": "gallery1-4q"
         },
         {
           "_params": {
@@ -584,7 +511,7 @@
           "caption1": "&nbsp;<br>Bij de keuzen die gemaakt worden bij basismaterialen, halffabricaten en outillage wordt nauwkeurig op de kwaliteit gelet, <br>zodat GLAS &amp; WAND &nbsp;met haar activiteiten een optimaal eindproduct of dienst kan garanderen.<br>",
           "title2": "GLAS &nbsp;&amp; WAND&nbsp;",
           "subtitle2": "<span style=\"font-style: normal;\">KNOW HOW VAN GLAS&nbsp;</span><span style=\"font-style: normal;\"><br></span>",
-          "caption2": "Het gaat dus over glas en wanden.<br> Merkonafhankelijk, gespecialiseerd in oplossingen , waarbij geldt: <br>WE HEBBEN ER ÉÉN, OF WE VINDEN ER ÉÉN. <br>De enorme knowhow op het gebied van glas, glasbewerkingen en wanden dragen er toe bij.<br>",
+          "caption2": "Het gaat dus over glas en wanden. Merkonafhankelijk, gespecialiseerd in oplossingen , waarbij geldt: <br>WE HEBBEN ER ÉÉN, OF WE VINDEN ER ÉÉN. <br>De enorme knowhow op het gebied van glas, glasbewerkingen en wanden dragen er toe bij.<br>",
           "title3": "Web Fonts",
           "subtitle3": "Google has a highly exhaustive list of fonts",
           "caption3": "Google has a highly exhaustive list of fonts compiled into its web font platform and Mobirise makes it easy for you to use them on your website easily and freely.",
@@ -626,9 +553,6 @@
               "font-size": "30px",
               "color": "#c0a375",
               "text-align": "center"
-            },
-            ".card-subtitle SPAN": {
-              "font-size": "24px"
             }
           },
           "_anchor": "extFeatures3-2k"
@@ -646,6 +570,18 @@
             "filter": false,
             "images": [
               {
+                "tags": "Awesome",
+                "videoPreview": "@THEME_PATH@/components/_images/gallery/preview.jpg",
+                "playVideo": false,
+                "videoUrl": "https://www.youtube.com/watch?v=uNCr7NdOJgw",
+                "image": "@PROJECT_PATH@/assets/images/home-2-1600-1600x1066.jpeg",
+                "thumb": "@PROJECT_PATH@/assets/images/home-2-1600-1600x1066-800x599.jpeg",
+                "alt": "",
+                "title": "",
+                "caption": "GLAS &amp; SPECIALS CUSTUM MADE&nbsp;",
+                "active": false
+              },
+              {
                 "tags": "Responsive",
                 "videoPreview": "@THEME_PATH@/components/_images/gallery/preview.jpg",
                 "playVideo": false,
@@ -654,8 +590,7 @@
                 "thumb": "@PROJECT_PATH@/assets/images/15069000-1374515322582876-8239190257972626712-o-2000x1333-800x600.jpeg",
                 "alt": "",
                 "title": "",
-                "caption": "GLAS &amp; WAND SPECIALS CUSTUM MADE&nbsp;",
-                "active": true
+                "caption": "GLAS &amp; WAND SPECIALS CUSTUM MADE&nbsp;"
               },
               {
                 "tags": "Creative",
@@ -678,19 +613,7 @@
                 "alt": "",
                 "title": "",
                 "caption": "GLAS &amp; WAND ACCESOIRES&nbsp;",
-                "active": false
-              },
-              {
-                "tags": "Responsive",
-                "videoPreview": "@THEME_PATH@/components/_images/gallery/preview.jpg",
-                "playVideo": false,
-                "videoUrl": "https://www.youtube.com/watch?v=uNCr7NdOJgw",
-                "image": "@PROJECT_PATH@/assets/images/15419550-996159093823214-6987102220163322083-o-1-2000x1125.jpeg",
-                "thumb": "@PROJECT_PATH@/assets/images/15419550-996159093823214-6987102220163322083-o-1-2000x1125-800x600.jpeg",
-                "alt": "",
-                "title": "",
-                "caption": "GLAS &amp; WAND SPECIALS CUSTUM MADE&nbsp;",
-                "active": false
+                "active": true
               }
             ]
           },
@@ -700,14 +623,7 @@
             "Theme"
           ],
           "_name": "gallery1",
-          "_anchor": "gallery1-4p",
-          "_styles": {
-            ".mbr-gallery-item > div > span": {
-              "font-family": "'Roboto', sans-serif",
-              "googleLink": "https://fonts.googleapis.com/css?family=Roboto:400,300,700",
-              "font-size": "20px"
-            }
-          }
+          "_anchor": "gallery1-4p"
         },
         {
           "_inherit": "msg-box8",
@@ -748,7 +664,7 @@
             "overlayOpacity": 0.5
           },
           "title": "<span style=\"font-weight: normal;\">ONZE MISSIE&nbsp;</span><br><span style=\"font-weight: normal;\"><br></span>",
-          "text": "<div><br></div><div>Glas is wellicht, naast de computer, het meest innovatieve product van de laatste decennia.</div><div>Onze missie is dan ook de vele toepassingen en mogelijkheden van “glas” bij alle mensen onder de aandacht te brengen, zodat men in geval er behoefte is, juist kan kiezen.</div><div>We gaan er van uit, dat iedereen graag in elke leefomgeving de nieuwste mogelijkheden wil weten. Onze kennis en ervaring van “glas” en “wand” op het technische - maar ook op het esthetische vlak is zonder overdrijven érg groot.</div><div> De oneindige mogelijkheden voor ieder in - of exterieur willen wij laten beleven en offreren.</div><div> Bij ons daarvoor inspiratie opdoen is ons doel.</div>",
+          "text": "<div><br></div><div>Glas is wellicht, naast de computer, het meest innovatieve product van de laatste decennia.</div><div>Onze missie is dan ook de vele toepassingen en mogelijkheden van “glas” bij alle mensen onder de aandacht te brengen, zodat men in geval er behoefte is, juist kan kiezen.</div><div>We gaan er van uit, dat iedereen graag in elke leefomgeving de nieuwste mogelijkheden wil weten. Onze kennis en ervaring van “glas” en “wand” op het technische - maar ook op het esthetische vlak is zonder overdrijven érg groot.</div><div> De oneindige mogelijkheden voor ieder in - of exterieur willen wij laten beleven en offreren. Bij ons daarvoor inspiratie opdoen is ons doel.</div>",
           "_tags": [
             "Theme"
           ],
@@ -807,6 +723,156 @@
           "_params": {
             "showTitle": true,
             "showText": false,
+            "showButtons": false,
+            "inverse": false,
+            "imageSize": "70",
+            "paddingTop": "4",
+            "paddingBottom": "5",
+            "bgImageRadio": true,
+            "bgImage": "@PROJECT_PATH@/assets/images/738126-574234525927188-583182393-o-1-1400x1155.jpeg",
+            "parallax": true,
+            "bgColorRadio": false,
+            "bgColor": "#ffffff",
+            "bgVideoRadio": false,
+            "bgVideo": {
+              "url": "https://www.youtube.com/watch?v=uNCr7NdOJgw"
+            },
+            "overlay": false,
+            "overlayColor": "#fff",
+            "overlayOpacity": 0.5
+          },
+          "media": {
+            "image": {
+              "active": true,
+              "width": 1400,
+              "src": "@PROJECT_PATH@/assets/images/738126-574234525927188-583182393-o-1400x1155.jpeg",
+              "link": "",
+              "alt": "",
+              "title": ""
+            },
+            "video": {
+              "src": "https://www.youtube.com/embed/Tq7p44IA-1U",
+              "aspectratio": "16:9",
+              "autoplay": "on",
+              "loop": "on"
+            },
+            "iconFont": {
+              "class": "mbr-iconfont mbr-iconfont-msg-box5",
+              "link": "",
+              "size": 0
+            }
+          },
+          "title": "<span style=\"font-weight: normal;\">NEW CONCEPT VAN GLAS &amp; WAND &nbsp;</span><br><span style=\"font-weight: normal;\"><br></span><span style=\"font-weight: normal;\">VIDI VINCI </span><br><br>VAN FREAK TOT<br>CHIQUE<span style=\"font-weight: normal;\"> &nbsp;</span>",
+          "text": "Solid color intro with an image on the right side. Also this block has no paddings.",
+          "buttons": "<a data-app-btn=\"true\" class=\"btn btn-primary\" href=\"https://mobirise.com\">MORE</a>",
+          "_tags": [
+            "Theme"
+          ],
+          "_name": "msg-box5",
+          "_styles": {
+            "H3": {
+              "font-family": "'Roboto', sans-serif",
+              "googleLink": "https://fonts.googleapis.com/css?family=Roboto:400,300,700",
+              "color": "#ffffff",
+              "text-align": "left"
+            },
+            "P": {
+              "color": "#ffffff"
+            },
+            "SPAN": {
+              "font-size": "48px"
+            }
+          },
+          "_anchor": "msg-box5-51"
+        },
+        {
+          "_params": {
+            "showLogo": false,
+            "showTitle": true,
+            "showText": false,
+            "showCountdown": true,
+            "showForm": false,
+            "showArrow": true,
+            "imageSize": "10",
+            "countdown": "",
+            "animText1": "",
+            "animText2": "NEW INOVATION ",
+            "animText3": "OUR NEW BRAND ",
+            "typeSpeed": "0",
+            "bgImageRadio": true,
+            "bgImage": "@PROJECT_PATH@/assets/images/13582111-1354831214534178-6700541715183522695-o-3-900x1024.jpeg",
+            "parallax": true,
+            "bgColorRadio": false,
+            "bgColor": "#2e2e2e",
+            "bgVideoRadio": false,
+            "bgVideo": {
+              "url": "https://www.youtube.com/watch?v=uNCr7NdOJgw"
+            },
+            "overlay": true,
+            "overlayColor": "#000",
+            "overlayOpacity": "0.5"
+          },
+          "title": "OUR ",
+          "title2": "<span style=\"font-weight: normal;\">VIDI VINCI&nbsp;</span>",
+          "text": "<br><span style=\"font-style: normal;\">Laat u inspireren met onze nieuwe luxery line VIDI VINCI&nbsp;<br>U denkt na over uw interieur.</span><br><span style=\"font-style: normal;\"> U ontwikkelt ideeën voor uw woning of werkomgeving. Waarin ruimte is voor kwaliteit,<br>eigentijds design en eigenzinnige details. </span><br><span style=\"font-style: normal;\">U droomt hoe mooi en stijlvol het kan worden.<br>na over uw interieur. U ontwikkelt ideeën voor uw woning of werkomgeving. Waarin ruimte is voor kwaliteit,<br>eigentijds design en eigenzinnige details. U droomt hoe mooi en stijlvol het kan worden.</span><br>",
+          "buttons": "<a data-app-btn=\"true\" type=\"submit\" class=\"btn btn-primary\">SUBSCRIBE</a>",
+          "media": {
+            "image": {
+              "active": true,
+              "width": 1400,
+              "src": "@THEME_PATH@-blocks/components/_images/mbr_logo_sand.png"
+            },
+            "video": {
+              "active": false,
+              "src": "https://www.youtube.com/watch?v=Tq7p44IA-1U",
+              "aspectratio": "16:9",
+              "autoplay": false,
+              "loop": false
+            },
+            "iconFont": {
+              "active": false,
+              "class": "mbr-iconfont mbr-iconfont-features4",
+              "name": "pencil",
+              "size": 0,
+              "color": "#ffffff",
+              "family": "et-line"
+            }
+          },
+          "form": {
+            "action": "raymondterhuurne@gmail.com",
+            "alerts": {
+              "success": "Thanks for filling out form!"
+            },
+            "fields": {
+              "email": {
+                "title": "Email",
+                "customTitle": "Enter Your Email"
+              }
+            }
+          },
+          "alias": "mobirise3-blocks/components",
+          "_tags": [
+            "Extension"
+          ],
+          "_name": "extHeader15",
+          "_anchor": "extHeader15-31",
+          "_styles": {
+            ".display-2": {
+              "font-family": "'Roboto', sans-serif",
+              "googleLink": "https://fonts.googleapis.com/css?family=Roboto:400,300,700"
+            },
+            "P": {
+              "text-align": "left"
+            },
+            ".display-2 SPAN": {
+              "font-size": "72px"
+            }
+          }
+        },
+        {
+          "_params": {
+            "showTitle": true,
+            "showText": false,
             "showButtons": true,
             "paddingTop": 3,
             "paddingBottom": 2,
@@ -815,7 +881,7 @@
             "parallax": false,
             "bgColorRadio": true,
             "bgColor": "#000000",
-            "bgText": "VITRI - VINCI NIEUW  DESIGN CONCEPT",
+            "bgText": "VIDI VINCI NEW INOVATION ",
             "bgTextStyle": "Montserrat",
             "bgTextColor": "#5e5546",
             "bgTextSize": 250,
@@ -827,9 +893,9 @@
             "overlayColor": "#000",
             "overlayOpacity": 0.1
           },
-          "title": "<span style=\"font-weight: normal;\">MAAK KENNIS GLAS &amp; WAND &nbsp;NIEUW DESIGN CONCECT </span><br><span style=\"font-weight: normal;\">VITRI - VINCI&nbsp;</span>",
+          "title": "<span style=\"font-weight: normal;\">GLAS WAND DESIGNED TO NEW CONECT VIDI VINCI&nbsp;</span>",
           "text": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Vel sunt, neque voluptatibus excepturi laboriosam possimus adipisci quidem dolores omnis, nemo dolore eligendi blanditiis voluptatem in, doloribus hic aperiam maiores fugit.",
-          "buttons": "<a data-app-btn=\"true\" class=\"btn btn-primary\" href=\"https://myalbum.com/album/qxGyJ7qGWk7k\" data-toolbar=\"-mbrBtnMove\">&nbsp; VITRI - VINCI DESIGN BEKIJK ONZE BROCHURE &nbsp;</a>",
+          "buttons": "<a data-app-btn=\"true\" class=\"btn btn-primary\" href=\"https://myalbum.com/album/qxGyJ7qGWk7k\" data-toolbar=\"-mbrBtnMove\">&nbsp; VIDI VINCI &nbsp;DESIGN &nbsp;&amp; QUALITA ITALIANI&nbsp;</a>",
           "alias": "mobirise3-blocks/components",
           "_tags": [
             "Extension"
@@ -845,9 +911,80 @@
             ".btn": {
               "font-family": "'Roboto', sans-serif",
               "googleLink": "https://fonts.googleapis.com/css?family=Roboto:400,300,700",
-              "font-size": "24px"
+              "font-size": "20px"
             }
           }
+        },
+        {
+          "_params": {
+            "showTitle": true,
+            "showText": true,
+            "showButtons": false,
+            "inverse": true,
+            "animText1": "LAAT U ",
+            "animText2": "INSPIEREREN ",
+            "animText3": "",
+            "typeSpeed": 50,
+            "imageSize": "42",
+            "paddingTop": "1",
+            "paddingBottom": "4",
+            "bgImageRadio": false,
+            "bgImage": "file:///Users/raymondterhuurne/Library/Application%20Support/Mobirise.com/Mobirise/projects/project-2020-03-30_143615/assets/images/14468434_1875659585982696_3317006824705473118_o-1-2000x1484.jpeg",
+            "parallax": false,
+            "bgColorRadio": true,
+            "bgColor": "#000000",
+            "bgVideoRadio": false,
+            "bgVideo": {
+              "url": "https://www.youtube.com/watch?v=uNCr7NdOJgw"
+            },
+            "overlay": true,
+            "overlayColor": "#000",
+            "overlayOpacity": 0.1
+          },
+          "title": "<span style=\"font-weight: normal;\">NIEUW VIDI VINCI &nbsp;</span>&nbsp;",
+          "title2": "<span style=\"font-weight: normal;\">THE PURE DIFFERENCE&nbsp;</span>",
+          "text": "<br>Vitri-Vinci<br>Laat u inspireren door onze “luxery” lijn Vitri-Vinci.<br>Ruimte voor kwaliteit, eigentijds design en wonderschone details. Uw dromen werkelijkheid, hoe stijlvol en mooi kan iets worden. Allés in glas voor de woonomgeving, van freak tot chique.<br>",
+          "buttons": "<a data-app-btn=\"true\" class=\"btn btn-primary\" href=\"https://myalbum.com/album/o3x5MteghViC\" data-toolbar=\"-mbrBtnMove\">BEKIJK HIER ONZE BEDRIJFSBROCHURE&nbsp;</a>",
+          "media": {
+            "image": {
+              "active": true,
+              "src": "@PROJECT_PATH@/assets/images/13582111-1354831214534178-6700541715183522695-o-900x1024.jpeg",
+              "link": "",
+              "alt": "",
+              "title": ""
+            },
+            "iconFont": {
+              "class": "mbr-iconfont mbr-iconfont-features4",
+              "name": "pencil",
+              "link": "#modalWindow",
+              "size": 250,
+              "color": "#e6e6e6",
+              "family": "et-line"
+            },
+            "video": {
+              "src": "https://www.youtube.com/watch?v=Tq7p44IA-1U",
+              "aspectratio": "16:9",
+              "autoplay": false,
+              "loop": false
+            }
+          },
+          "alias": "mobirise3-blocks/components",
+          "_tags": [
+            "Extension"
+          ],
+          "_name": "extMsg-box3",
+          "_styles": {
+            "SPAN": {
+              "font-family": "'Roboto', sans-serif",
+              "googleLink": "https://fonts.googleapis.com/css?family=Roboto:400,300,700"
+            },
+            "P": {
+              "font-family": "'Roboto', sans-serif",
+              "googleLink": "https://fonts.googleapis.com/css?family=Roboto:400,300,700",
+              "text-align": "left"
+            }
+          },
+          "_anchor": "extMsg-box3-4x"
         },
         {
           "_params": {
@@ -856,7 +993,7 @@
           "media": {
             "image": {
               "active": true,
-              "src": "@PROJECT_PATH@/assets/images/70356543-2281396981968870-5170637606404227072-o-1400x1400.jpg",
+              "src": "@PROJECT_PATH@/assets/images/-mmf0548-1400x935.jpeg",
               "width": 1400,
               "link": "",
               "alt": "",
@@ -904,7 +1041,7 @@
             "overlayOpacity": 0.5
           },
           "text": "FOLLOW US",
-          "icons": " <a data-app-btn=\"true\" class=\"btn btn-social\" title=\"Facebook\" target=\"_blank\" href=\"https://www.facebook.com/GLAS-WAND-113375517004116/\" data-toolbar=\"-mbrBtnAdd,-mbrBtnMove,-mbrFonts,-mbrFontSize,-mbrBtnColor\"><i class=\"socicon socicon-facebook\"></i></a>         ",
+          "icons": " <a data-app-btn=\"true\" class=\"btn btn-social\" title=\"Facebook\" target=\"_blank\" href=\"https://www.facebook.com/pages/Mobirise/1616226671953247\" data-toolbar=\"-mbrBtnAdd,-mbrBtnMove,-mbrFonts,-mbrFontSize,-mbrBtnColor\"><i class=\"socicon socicon-facebook\"></i></a>   <a data-app-btn=\"true\" class=\"btn btn-social\" title=\"Instagram\" target=\"_blank\" href=\"https://instagram.com/mobirise/\" data-toolbar=\"-mbrBtnAdd,-mbrBtnMove,-mbrFonts,-mbrFontSize,-mbrBtnColor\"><span class=\"socicon socicon-instagram mbr-iconfont mbr-iconfont-btn\" style=\"font-size: 27px;\"></span></a>      ",
           "_tags": [
             "Theme"
           ],
@@ -925,8 +1062,8 @@
             "overlayOpacity": 0.8
           },
           "buttons": "<a data-app-btn=\"true\" type=\"submit\" class=\"btn btn-sm btn-primary\" data-toolbar=\"-mbrLink,-mbrBtnAdd,-mbrBtnMove,-mbrBtnRemove\">Contact us</a>",
-          "text1": "<font color=\"#7c7c7c\" face=\"Montserrat, sans-serif\"><span style=\"font-size: 16px; letter-spacing: -1px;\"><b>GLAS &amp; WAND&nbsp;</b></span></font><br>Kopersteden 21&nbsp;<br>7547 TJ Enschede<br><br><br>\n<strong>Contacts</strong><br>\nEmail: info@glasenwand.nl&nbsp;<br>telefoon ; 053 -5721030&nbsp;<br>Mobiel ; &nbsp; &nbsp;06 53 772 934&nbsp;<br><br>Website : www.glasenwand.nl&nbsp;",
-          "text2": "<p class=\"mbr-contacts__text\"><strong>Links</strong></p><ul class=\"mbr-contacts__list\"><li>HOME&nbsp;</li><li>I<a href=\"page1.html\">NTERIEUR&nbsp;</a></li><li><a href=\"page 1.html\">EXTERIEUR&nbsp;</a></li><li><a href=\"page5.html\">GLASS &amp; WALL&nbsp;</a></li><li><a href=\"page4.html\">CONTAC</a>T&nbsp;</li></ul>",
+          "text1": "<strong>Address</strong><br>\n1234 Street Name<br>\nCity, AA 99999<br><br><br>\n<strong>Contacts</strong><br>\nEmail: support@mobirise.com<br>\nPhone: +1 (0) 000 0000 001<br>\nFax: +1 (0) 000 0000 002",
+          "text2": "<p class=\"mbr-contacts__text\"><strong>Links</strong></p><ul class=\"mbr-contacts__list\"><li><a class=\"text-white\" href=\"https://mobirise.com/\">Website builder</a></li><li><a class=\"text-white\" href=\"https://mobirise.com/mobirise-free-win.zip\">Download for Windows</a></li><li><a class=\"text-white\" href=\"https://mobirise.com/mobirise-free-mac.zip\">Download for Mac</a></li></ul>",
           "form": {
             "title": "MESSAGE",
             "action": "raymondterhuurne@gmail.com",
@@ -962,20 +1099,12 @@
           "_anchor": "contacts4-1p",
           "_styles": {
             ".mbr-contacts p": {
-              "color": "#c0a375"
+              "color": "#ffffff"
             },
             ".btn": {
               "font-size": "18px",
               "font-family": "'Roboto', sans-serif",
               "googleLink": "https://fonts.googleapis.com/css?family=Roboto:400,300,700"
-            },
-            ".mbr-contacts__text": {
-              "color": "#c0a375"
-            },
-            ".mbr-contacts__text UL": {
-              "font-family": "'Roboto', sans-serif",
-              "googleLink": "https://fonts.googleapis.com/css?family=Roboto:400,300,700",
-              "font-size": "16px"
             }
           }
         }
@@ -985,29 +1114,25 @@
       "settings": {
         "meta_descr": "Site Generator Description",
         "title": "INTERIEUR ",
-        "order": 2
+        "order": 1
       },
       "components": [
         {
           "_inherit": "menu",
           "_params": {
-            "logo": true,
-            "showBrand": false,
+            "logo": false,
+            "showBrand": true,
             "hideButtons": false,
             "sticky": true,
             "collapsed": true,
             "transparent": false,
             "bgColor": "#000000",
-            "fontSize": "1.7",
-            "fontName": {
-              "name": "Roboto Condensed",
-              "url": "https://fonts.googleapis.com/css?family=Roboto+Condensed:400,300,700",
-              "css": "'Roboto Condensed', sans-serif"
-            },
+            "fontSize": 0.75,
+            "fontName": {},
             "fontColor": "#ffffff",
             "fontHoverColor": "@primaryColor"
           },
-          "items": "<li class=\"nav-item dropdown open\"><a data-app-btn=\"true\" class=\"nav-link link dropdown-toggle\" href=\"page4.html\" data-toggle=\"dropdown-submenu\" aria-expanded=\"true\">HOME&nbsp;</a><div class=\"dropdown-menu\"><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"https://mobirise.com/\"></a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"https://mobirise.com/\"></a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"https://mobirise.com/\">&nbsp;</a></div></li><li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"https://mobirise.com/\" aria-expanded=\"false\">INTERIEUR &nbsp;</a></li><li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"page4.html\" aria-expanded=\"false\">EXTERIEUR&nbsp;</a></li><li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"page4.html\" aria-expanded=\"false\">GLASS &amp; WALL</a></li><li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"https://mobirise.com/\">CONTACT&nbsp;</a></li><li class=\"nav-item nav-btn\"><a data-app-btn=\"true\" data-button=\"\" data-app-selector=\".btn\" class=\"nav-link btn btn-primary-outline btn-primary\" href=\"https://youtu.be/ZjwijA4UA2A\">BEKIJK ONZE &nbsp;BEDRIJFSFILM&nbsp;</a></li><li class=\"nav-item nav-btn\"><a data-app-btn=\"true\" data-button=\"\" data-app-selector=\".btn\" class=\"nav-link btn btn-primary-outline btn-primary\" href=\"assets/files/INTRODUCTIE-VITRI-VINCI.pdf\">VITRI - VINCI LOOKBOOK&nbsp;</a></li>",
+          "items": "<li class=\"nav-item dropdown\"><a data-app-btn=\"true\" class=\"nav-link link dropdown-toggle\" href=\"https://mobirise.com/\" data-toggle=\"dropdown-submenu\" aria-expanded=\"false\">HOME&nbsp;</a><div class=\"dropdown-menu\"><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"https://mobirise.com/\">OVER ONS&nbsp;</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"https://mobirise.com/\">MISSIE&nbsp;</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"https://mobirise.com/\">VISIE&nbsp;</a></div></li><li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"https://mobirise.com/\" aria-expanded=\"false\">INTERIEUR &nbsp;</a></li><li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"https://mobirise.com/\" aria-expanded=\"false\">EXTERIEUR&nbsp;</a></li><li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"https://mobirise.com/\">CONTACT&nbsp;</a></li><li class=\"nav-item nav-btn\"><a data-app-btn=\"true\" data-button=\"\" data-app-selector=\".btn\" class=\"nav-link btn btn-primary-outline btn-primary\" href=\"https://youtu.be/ZjwijA4UA2A\">BEKIJK ONZE &nbsp;BEDRIJFSFILM&nbsp;</a></li><li class=\"nav-item nav-btn\"><a data-app-btn=\"true\" data-button=\"\" data-app-selector=\".btn\" class=\"nav-link btn btn-primary-outline btn-primary\" href=\"assets/files/VITRI-VINCI.pdf\">VIDI VINCI LOOKBOOK&nbsp;</a></li>",
           "_tags": [
             "Theme"
           ],
@@ -1016,8 +1141,7 @@
               "display": "none !important"
             },
             ".navbar-caption": {
-              "color": "#ffffff",
-              "font-size": "20px"
+              "color": "#ffffff"
             },
             ".navbar-toggler": {
               "color": "#ffffff"
@@ -1026,15 +1150,13 @@
               "background-color": "#ffffff"
             },
             ".link, .dropdown-item": {
-              "color": "#ffffff",
-              "googleLink": "https://fonts.googleapis.com/css?family=Roboto+Condensed:400,300,700",
-              "font-family": "'Roboto Condensed', sans-serif"
+              "color": "#ffffff"
             },
             ".link": {
-              "font-size": "1.7rem"
+              "font-size": "0.75rem"
             },
             ".dropdown-item, .nav-dropdown-sm .link": {
-              "font-size": "1.841rem"
+              "font-size": "0.812rem"
             },
             ".link:hover, .dropdown-item:hover, .link:focus, .dropdown-item:focus": {
               "color": "@primaryColor"
@@ -1060,39 +1182,23 @@
             },
             ".link[aria-expanded=\"true\"], .dropdown-item[aria-expanded=\"true\"]": {
               "color": "#c0a375!important"
-            },
-            "A": {
-              "font-size": "8px",
-              "font-family": "'Roboto', sans-serif",
-              "googleLink": "https://fonts.googleapis.com/css?family=Roboto:400,300,700"
-            },
-            ".btn": {
-              "font-family": "'Roboto', sans-serif",
-              "googleLink": "https://fonts.googleapis.com/css?family=Roboto:400,300,700",
-              "font-size": "20px"
             }
           },
           "logo": {
             "image": {
-              "src": "@PROJECT_PATH@/assets/images/logo-glas-en-wand-526x128.png",
+              "active": true,
+              "src": "@THEME_PATH@/components/_images/logo.png",
               "height": 128,
               "alt": "Mobirise",
-              "link": "page4.html",
-              "title": "",
-              "linkInNewWindow": false,
-              "active": true
+              "link": "https://mobirise.com"
             },
             "iconFont": {
               "class": "mbr-iconfont mbr-iconfont-menu",
               "link": "https://mobirise.com",
-              "size": 0,
-              "linkInNewWindow": false,
-              "name": "home",
-              "family": "MobiriseIcons",
-              "active": true
+              "size": 0
             }
           },
-          "brand": "<a class=\"navbar-caption\" data-app-btn=\"true\" data-app-selector=\".navbar-caption\" href=\"https://mobirise.com\" data-app-placeholder=\"Type Brand Name\" data-toolbar=\"-mbrBtnMove,-mbrBtnAdd,-mbrBtnRemove,mbrColor\">GLAS 7WAND&nbsp;</a>",
+          "brand": "<a class=\"navbar-caption\" data-app-btn=\"true\" data-app-selector=\".navbar-caption\" href=\"https://mobirise.com\" data-app-placeholder=\"Type Brand Name\" data-toolbar=\"-mbrBtnMove,-mbrBtnAdd,-mbrBtnRemove,mbrColor\">GLAS &amp; WAND&nbsp;</a>",
           "_name": "ext.menu",
           "_anchor": "ext_menu-q"
         },
@@ -1107,7 +1213,7 @@
             "timeout": "3",
             "slides": [
               {
-                "image": "@PROJECT_PATH@/assets/images/11731659-1133513326665969-6116068569273808659-o-1407x963.jpg",
+                "image": "@PROJECT_PATH@/assets/images/mbr-1920x1194.jpg",
                 "active": true,
                 "showButtons": false,
                 "showText": false,
@@ -1115,6 +1221,21 @@
                 "playVideo": false,
                 "videoUrl": "https://www.youtube.com/watch?v=uNCr7NdOJgw",
                 "title": "<span style=\"font-weight: normal;\">GLAS &amp; WAND</span><br><span style=\"font-weight: normal;\">GLASHARD DE BESTE &nbsp;</span>",
+                "overlay": true,
+                "contentAlign": "center",
+                "text": "Fullscreen slider with breath-taking pan & zoom also known as \"KenBurns\" effect and parallax transition between slides.",
+                "buttons": " <a data-app-btn=\"true\" class=\"btn btn-lg btn-white btn-white-outline\" href=\"https://myalbum.com/album/o3x5MteghViC\" data-toolbar=\"-mbrBtnMove\">BEKIJK ONZE BERIJFS BROCHURE&nbsp;</a>",
+                "alt": ""
+              },
+              {
+                "image": "@PROJECT_PATH@/assets/images/22181615-1742149205819484-478104031797924603-o-2000x1333.jpg",
+                "active": false,
+                "showButtons": false,
+                "showText": false,
+                "showTitle": true,
+                "playVideo": false,
+                "videoUrl": "https://www.youtube.com/watch?v=uNCr7NdOJgw",
+                "title": "<span style=\"font-weight: normal;\">GLAS &amp; WAND</span><br><span style=\"font-weight: normal;\">UW INSPIRATIEBRON VOOR GLASIDEËEN &nbsp;</span>",
                 "overlay": true,
                 "contentAlign": "center",
                 "text": "Fullscreen slider with breath-taking pan & zoom also known as \"KenBurns\" effect and parallax transition between slides.",
@@ -1138,7 +1259,7 @@
               "text-align": "left"
             }
           },
-          "_anchor": "extSlider1-62"
+          "_anchor": "extSlider1-5f"
         },
         {
           "_params": {
@@ -1150,7 +1271,7 @@
             "iconsColor": "#fff",
             "showTitles": false,
             "bgImageRadio": true,
-            "bgImage": "@PROJECT_PATH@/assets/images/gallery-of-paper-folding-space-elle-office-feeling-brand-design-co-ltd-1-1600x1702.jpeg",
+            "bgImage": "@PROJECT_PATH@/assets/images/bad-1818947-1920-1920x960.jpeg",
             "parallax": false,
             "bgColorRadio": false,
             "bgColor": "#2e2e2e",
@@ -1163,7 +1284,7 @@
             "overlayOpacity": 0.3
           },
           "title": "<span style=\"font-weight: normal;\">INTERIEUR&nbsp;</span><br><br><span style=\"font-weight: normal;\"><br></span>",
-          "text": "<span style=\"font-style: normal;\"><b>DE PRODUCTGROEP INTERIEUR VAN GLAS &amp; WAND</b>&nbsp;</span><br><span style=\"font-style: normal;\"><br></span><br><span style=\"font-style: normal;\">Ons veelzijdige assortiment bestaat uit verschillende productgroepen interieur, &nbsp;<br>zodat u voldoende keuze heeft om uw wensen te vertalen naar een prachtig eindresultaat.\n<br>\n<br></span><br>",
+          "text": "<span style=\"font-style: normal;\"><b>HET PRODUCTGROEP INTERIEUR VAN GLAS &amp; WAND</b>&nbsp;</span><br><span style=\"font-style: normal;\"><br></span><br><span style=\"font-style: normal;\">Ons veelzijdige assortiment bestaat uit verschillende productgroepen interieur&nbsp;<br>Zodat u voldoende keuze heeft om uw wensen te vertalen naar een prachtig eindresultaat.\n<br>\n<br></span><br>",
           "buttons": "<a data-app-btn=\"true\" class=\"btn btn-primary\" href=\"https://mobirise.com\">MORE</a>",
           "title1": "Multi Layouts",
           "title2": "Creative Idea",
@@ -1265,53 +1386,13 @@
             "overlayOpacity": 0.5
           },
           "title": "<span style=\"font-weight: normal;\">GLAS &amp; WAND </span><br><span style=\"font-weight: normal;\">INTERIEUR CONCEPTEN</span><span style=\"font-weight: normal;\">&nbsp;</span>",
-          "text": "<span style=\"font-style: normal;\">GLAS &nbsp;EEN INSPIRATIE BRON VOOR GLAS IEDEEËN.</span>",
+          "text": "<span style=\"font-style: normal;\">GLAS IEDËEN RIJK EEN INSPIRATIE BRON VOOR GLASIEDEËEN.</span>",
           "button": "<a data-app-btn=\"true\" class=\"btn btn-primary\" href=\"https://mobirise.com\">VIEW VIDEO TUTORIAL</a>",
           "_tags": [
             "Theme"
           ],
           "_name": "msg-box2",
           "_anchor": "msg-box2-4m"
-        },
-        {
-          "_params": {
-            "showTitle": true,
-            "showText": false,
-            "showButtons": true,
-            "showArrow": true,
-            "animText1": "BATHROOM ",
-            "animText2": "INSPIRATIONS ",
-            "animText3": "VITRI VINCI ",
-            "typeSpeed": "40",
-            "bgImageRadio": true,
-            "bgImage": "@PROJECT_PATH@/assets/images/schermafdruk-2020-04-07-10.57.19-1144x717.png",
-            "parallax": false,
-            "bgColorRadio": false,
-            "bgColor": "#2e2e2e",
-            "bgVideoRadio": false,
-            "bgVideo": {
-              "url": "https://www.youtube.com/watch?v=uNCr7NdOJgw"
-            },
-            "overlay": false,
-            "overlayColor": "#000",
-            "overlayOpacity": 0.1
-          },
-          "title": "<span style=\"font-weight: normal;\">ONDEK HIER VITRI &nbsp;- VINCI &nbsp;</span><br> FOR",
-          "text": "Full-screen intro with \"typed\" text effect. Enter in any string, and watch it type at the speed you have set, backspace what it is typed, and begin a new string. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Vel sunt, neque voluptatibus excepturi laboriosam possimus adipisci quidem dolores omnis, nemo dolore eligendi blanditiis voluptatem in, doloribus hic aperiam maiores fugit.",
-          "buttons": "<a data-app-btn=\"true\" class=\"btn btn-primary\" href=\"https://myalbum.com/album/67M6PuyGy5yM\" data-toolbar=\"-mbrBtnMove\">NEW BATHROOM INSPIRATIONS &nbsp;VITRI - VINCI PERFECTION&nbsp;</a>",
-          "alias": "mobirise3-blocks/components",
-          "_tags": [
-            "Extension"
-          ],
-          "_name": "extHeader11",
-          "_styles": {
-            ".btn": {
-              "font-size": "20px",
-              "font-family": "'Roboto', sans-serif",
-              "googleLink": "https://fonts.googleapis.com/css?family=Roboto:400,300,700"
-            }
-          },
-          "_anchor": "extHeader11-5m"
         },
         {
           "_params": {
@@ -1425,23 +1506,20 @@
               "font-family": "'Roboto', sans-serif",
               "googleLink": "https://fonts.googleapis.com/css?family=Roboto:400,300,700",
               "font-size": "30px"
-            },
-            ".card-subtitle SPAN": {
-              "font-size": "24px"
             }
           },
           "_anchor": "extFeatures3-3r"
         },
         {
           "_params": {
-            "showBullets": false,
+            "showBullets": true,
             "fullWidth": false,
             "spacing": 0,
             "paddingTop": 0,
             "paddingBottom": 0,
             "filterBgColor": false,
             "bgColor": "#FFFFFF",
-            "showText": false,
+            "showText": true,
             "filter": false,
             "images": [
               {
@@ -1575,7 +1653,7 @@
           "caption1": "&nbsp;<br>Glas speelt in onze oplossingen altijd de hoofdrol. Het zorgt voor een krachtige uitstraling en een verrassend effect. Onze mogelijkheden in glas zijn grenzeloos!\n<br>Onze glastoepassingen zijn geschikt voor particulieren, maar ook voor de zakelijke markt. <br>Ze worden zowel binnen als buiten geplaatst.\n<br>Ons veelzijdige assortiment bestaat uit verschillende productgroepen en bevestigingssystemen, zodat u voldoende keuze heeft om uw wensen te vertalen naar een prachtig eindresultaat.\n<br>\n<br>",
           "title2": "GLAS &nbsp;&amp; WAND&nbsp;",
           "subtitle2": "<span style=\"font-style: normal;\">PRODUCT GROEP INTERIEUR&nbsp;</span>",
-          "caption2": "Uniek zijn onze keramiek wanddelen. <br>Vernuftig aangevuld in het geheel aan wandmaterialen, hygiënisch, brandvertragend en sterk.<br> Met glas ernaast gaat de wereld weer open.<br><br>Hier bent u natuurlijk aan het juiste adres, met een groot scala aan oplossingen, bij Glas&amp;Wand.<br>",
+          "caption2": "Een mooie glazen deur, scheidingswand of: een stijlvol glaselement in uw interieur valt op. <br>Met interieurglas creëert u een gevoel van openheid en ruimte in elk ontwerp, nieuwbouw of renovatie.<br>Glas &amp; Wand is uw totaalpartner in interieurafwerking, integreren we moeiteloos een fraai en smaakvol glaselement in uw interieur. <br>Zo combineert u functionaliteit met esthetisch genot.",
           "title3": "Web Fonts",
           "subtitle3": "Google has a highly exhaustive list of fonts",
           "caption3": "Google has a highly exhaustive list of fonts compiled into its web font platform and Mobirise makes it easy for you to use them on your website easily and freely.",
@@ -1614,9 +1692,6 @@
               "font-family": "'Roboto', sans-serif",
               "googleLink": "https://fonts.googleapis.com/css?family=Roboto:400,300,700",
               "font-size": "30px"
-            },
-            ".card-subtitle SPAN": {
-              "font-size": "24px"
             }
           },
           "_anchor": "extFeatures3-36"
@@ -1643,7 +1718,7 @@
               "googleLink": "https://fonts.googleapis.com/css?family=Roboto:400,300,700"
             },
             ".card-subtitle SPAN": {
-              "font-size": "24px"
+              "font-size": "20px"
             }
           },
           "_params": {
@@ -1693,7 +1768,7 @@
             "image": {
               "active": true,
               "width": 1400,
-              "src": "@PROJECT_PATH@/assets/images/img-140-1400x1050.jpeg",
+              "src": "@PROJECT_PATH@/assets/images/img-139-1400x1050.jpeg",
               "link": "",
               "alt": "",
               "title": ""
@@ -1701,8 +1776,8 @@
             "video": {
               "src": "https://www.youtube.com/watch?v=Tq7p44IA-1U",
               "aspectratio": "16:9",
-              "autoplay": "on",
-              "loop": "on"
+              "autoplay": false,
+              "loop": false
             },
             "iconFont": {
               "class": "mbr-iconfont mbr-iconfont-header2",
@@ -1802,7 +1877,7 @@
               "googleLink": "https://fonts.googleapis.com/css?family=Roboto:400,300,700"
             },
             ".card-subtitle SPAN": {
-              "font-size": "24px"
+              "font-size": "20px"
             }
           },
           "_params": {
@@ -1961,7 +2036,7 @@
               "googleLink": "https://fonts.googleapis.com/css?family=Roboto:400,300,700"
             },
             ".card-subtitle SPAN": {
-              "font-size": "24px"
+              "font-size": "20px"
             }
           },
           "_params": {
@@ -2099,25 +2174,68 @@
           "_anchor": "extFeatures12-50"
         },
         {
+          "_styles": {
+            ".mbr-section-title": {
+              "color": "#fff"
+            },
+            ".mbr-section-subtitle": {
+              "color": "#c0a375"
+            },
+            ".mbr-section-title SPAN": {
+              "font-family": "'Roboto', sans-serif",
+              "googleLink": "https://fonts.googleapis.com/css?family=Roboto:400,300,700",
+              "font-size": "48px"
+            }
+          },
+          "_params": {
+            "showTitle": true,
+            "showText": true,
+            "showButtons": false,
+            "inverse": true,
+            "paddingTop": 3,
+            "paddingBottom": 3,
+            "bgImageRadio": false,
+            "bgImage": "@THEME_PATH@/components/_images/jumbotron.jpg",
+            "parallax": true,
+            "bgColorRadio": true,
+            "bgColor": "#000000",
+            "bgVideoRadio": false,
+            "bgVideo": {
+              "url": "https://www.youtube.com/watch?v=uNCr7NdOJgw"
+            },
+            "overlay": false,
+            "overlayColor": "#222",
+            "overlayOpacity": 0.5
+          },
+          "title": "<span style=\"font-weight: normal;\">INTERIEUR </span><br><span style=\"font-weight: normal;\">B2B GLASS WALL SYTEMS &nbsp;&nbsp;</span>",
+          "text": "Cut down the development time with drag-and-drop website builder.",
+          "button": "<a data-app-btn=\"true\" class=\"btn btn-primary\" href=\"https://mobirise.com\">VIEW VIDEO TUTORIAL</a>",
+          "_tags": [
+            "Theme"
+          ],
+          "_name": "msg-box2",
+          "_anchor": "msg-box2-58"
+        },
+        {
           "_inherit": "gallery1",
           "_params": {
-            "showBullets": false,
-            "fullWidth": true,
+            "showBullets": true,
+            "fullWidth": false,
             "spacing": "4",
             "paddingTop": 0,
             "paddingBottom": 0,
             "filterBgColor": false,
             "bgColor": "#000000",
-            "showText": false,
-            "filter": false,
+            "showText": true,
+            "filter": true,
             "images": [
               {
                 "tags": "B2B GLAS WALL SYSYEMS ",
                 "videoPreview": "@THEME_PATH@/components/_images/gallery/preview.jpg",
                 "playVideo": false,
                 "videoUrl": "https://www.youtube.com/watch?v=uNCr7NdOJgw",
-                "image": "@PROJECT_PATH@/assets/images/gallery-of-paper-folding-space-elle-office-feeling-brand-design-co-ltd-1-1600x1702.jpeg",
-                "thumb": "@PROJECT_PATH@/assets/images/gallery-of-paper-folding-space-elle-office-feeling-brand-design-co-ltd-1-1600x1702-800x600.jpeg",
+                "image": "@PROJECT_PATH@/assets/images/wall-3-1600-1600x1200.jpeg",
+                "thumb": "@PROJECT_PATH@/assets/images/wall-3-1600-1600x1200-800x600.jpeg",
                 "alt": "",
                 "title": "",
                 "caption": "GLAS &amp; WAND B2B GLASS WALL SYTEMS&nbsp;",
@@ -2192,11 +2310,6 @@
               "font-family": "'Roboto', sans-serif",
               "googleLink": "https://fonts.googleapis.com/css?family=Roboto:400,300,700",
               "font-size": "48px"
-            },
-            ".mbr-section-subtitle SPAN": {
-              "font-family": "'Roboto', sans-serif",
-              "googleLink": "https://fonts.googleapis.com/css?family=Roboto:400,300,700",
-              "font-size": "24px"
             }
           },
           "_params": {
@@ -2220,7 +2333,7 @@
             "overlayOpacity": 0.5
           },
           "title": "<span style=\"font-weight: normal;\">INTERIEUR </span><br><span style=\"font-weight: normal;\">GLAZEN DEUREN &nbsp;</span>",
-          "text": "<br><span style=\"font-style: normal;\">HOW A MASTERPIECE IS MADE&nbsp;</span>",
+          "text": "Cut down the development time with drag-and-drop website builder.",
           "button": "<a data-app-btn=\"true\" class=\"btn btn-primary\" href=\"https://mobirise.com\">VIEW VIDEO TUTORIAL</a>",
           "_tags": [
             "Theme"
@@ -2238,16 +2351,16 @@
             "paddingBottom": 0,
             "filterBgColor": false,
             "bgColor": "#000000",
-            "showText": false,
-            "filter": false,
+            "showText": true,
+            "filter": true,
             "images": [
               {
                 "tags": "SCHEIDINGS WANDEN ",
                 "videoPreview": "@THEME_PATH@/components/_images/gallery/preview.jpg",
                 "playVideo": false,
                 "videoUrl": "https://www.youtube.com/watch?v=uNCr7NdOJgw",
-                "image": "@PROJECT_PATH@/assets/images/21122535-1910038955916536-5598529497461007504-o-1600x1142.jpeg",
-                "thumb": "@PROJECT_PATH@/assets/images/21122535-1910038955916536-5598529497461007504-o-1600x1142-800x800.jpeg",
+                "image": "@PROJECT_PATH@/assets/images/schermafdruk-2019-12-04-13.55.34-1225x1077.png",
+                "thumb": "@PROJECT_PATH@/assets/images/schermafdruk-2019-12-04-13.55.34-1225x1077-800x800.png",
                 "alt": "",
                 "title": "",
                 "caption": "Type caption here",
@@ -2258,8 +2371,8 @@
                 "videoPreview": "@THEME_PATH@/components/_images/gallery/preview.jpg",
                 "playVideo": false,
                 "videoUrl": "https://www.youtube.com/watch?v=uNCr7NdOJgw",
-                "image": "@PROJECT_PATH@/assets/images/31166045-159767894718644-1118443280976052224-o-2-988x1181.jpeg",
-                "thumb": "@PROJECT_PATH@/assets/images/31166045-159767894718644-1118443280976052224-o-2-988x1181-632x632.jpeg",
+                "image": "@PROJECT_PATH@/assets/images/31166045-159767894718644-1118443280976052224-o-1-988x1181.jpeg",
+                "thumb": "@PROJECT_PATH@/assets/images/31166045-159767894718644-1118443280976052224-o-1-988x1181-790x790.jpeg",
                 "alt": "",
                 "title": "",
                 "caption": "Type caption here",
@@ -2314,11 +2427,6 @@
             },
             ".mbr-section-subtitle": {
               "color": "#c0a375"
-            },
-            ".mbr-section-subtitle SPAN": {
-              "font-family": "'Roboto', sans-serif",
-              "googleLink": "https://fonts.googleapis.com/css?family=Roboto:400,300,700",
-              "font-size": "24px"
             }
           },
           "_params": {
@@ -2342,7 +2450,7 @@
             "overlayOpacity": 0.5
           },
           "title": "<span style=\"font-weight: normal;\">INTERIEUR </span><br><span style=\"font-weight: normal;\">GLAZEN SCHUIFWANDEN &nbsp;&nbsp;</span>",
-          "text": "<span style=\"font-style: normal;\">INDIVIDUALIZATION EXPRES YOUR PERSONALITY&nbsp;</span>",
+          "text": "Cut down the development time with drag-and-drop website builder.",
           "button": "<a data-app-btn=\"true\" class=\"btn btn-primary\" href=\"https://mobirise.com\">VIEW VIDEO TUTORIAL</a>",
           "_tags": [
             "Theme"
@@ -2360,8 +2468,8 @@
             "paddingBottom": 0,
             "filterBgColor": false,
             "bgColor": "#000000",
-            "showText": false,
-            "filter": false,
+            "showText": true,
+            "filter": true,
             "images": [
               {
                 "tags": "SCHEIDINGS WANDEN ",
@@ -2385,19 +2493,19 @@
                 "alt": "",
                 "title": "",
                 "caption": "GLAZEN CONFERENTIE TAFELS&nbsp;",
-                "active": false
+                "active": true
               },
               {
-                "tags": "SCHUIFWAND DE LUXE ",
+                "tags": "SCHEIDINGS WANDEN ",
                 "videoPreview": "@THEME_PATH@/components/_images/gallery/preview.jpg",
                 "playVideo": false,
                 "videoUrl": "https://www.youtube.com/watch?v=uNCr7NdOJgw",
-                "image": "@PROJECT_PATH@/assets/images/738126-574234525927188-583182393-o-2-1400x1155.jpeg",
-                "thumb": "@PROJECT_PATH@/assets/images/738126-574234525927188-583182393-o-2-1400x1155-619x619.jpeg",
+                "image": "@PROJECT_PATH@/assets/images/schermafdruk-2020-04-04-13.32.41-774x475.png",
+                "thumb": "@PROJECT_PATH@/assets/images/schermafdruk-2020-04-04-13.32.41-774x475-380x380.png",
                 "alt": "",
                 "title": "",
-                "caption": "GLAS &amp; WAND SCHUIFDEUREN&nbsp;<br><br>",
-                "active": true
+                "caption": "GLAZEN CONFERENTIE TAFELS&nbsp;",
+                "active": false
               },
               {
                 "tags": "SCHEIDINGS WANDEN ",
@@ -2408,7 +2516,7 @@
                 "thumb": "@PROJECT_PATH@/assets/images/44584959-1829444633771674-2037980261332811776-o-2-1200x800-640x640.jpeg",
                 "alt": "",
                 "title": "",
-                "caption": "GLAS &amp; WAND SCHUIFDEUEREN&nbsp;",
+                "caption": "GLAZEN CONFERENTIE TAFELS&nbsp;",
                 "active": false
               }
             ]
@@ -2417,7 +2525,7 @@
             "Theme"
           ],
           "articleLayout": false,
-          "allItem": "GLAZEN SCHUIFWANDEN&nbsp;",
+          "allItem": "GLAZEN BINNENDEUREN&nbsp;",
           "_name": "gallery4",
           "_styles": {
             "LI": {
@@ -2443,11 +2551,6 @@
             ".mbr-section-title SPAN": {
               "font-family": "'Roboto', sans-serif",
               "googleLink": "https://fonts.googleapis.com/css?family=Roboto:400,300,700"
-            },
-            ".mbr-section-subtitle SPAN": {
-              "font-family": "'Roboto', sans-serif",
-              "googleLink": "https://fonts.googleapis.com/css?family=Roboto:400,300,700",
-              "font-size": "24px"
             }
           },
           "_params": {
@@ -2471,53 +2574,13 @@
             "overlayOpacity": 0.5
           },
           "title": "<span style=\"font-weight: normal;\">INTERIEUR </span><br><span style=\"font-weight: normal;\">BADKAMER &nbsp;</span>",
-          "text": "<span style=\"font-style: normal;\">&nbsp;VITRI &nbsp;- &nbsp;VINCI CUBE &nbsp;A MASTERPIECE IS MADE&nbsp;</span>",
+          "text": "Cut down the development time with drag-and-drop website builder.",
           "button": "<a data-app-btn=\"true\" class=\"btn btn-primary\" href=\"https://mobirise.com\">VIEW VIDEO TUTORIAL</a>",
           "_tags": [
             "Theme"
           ],
           "_name": "msg-box2",
           "_anchor": "msg-box2-4e"
-        },
-        {
-          "_params": {
-            "showTitle": true,
-            "showText": false,
-            "showButtons": true,
-            "showArrow": true,
-            "animText1": "BATHROOM ",
-            "animText2": "INSPIRATIONS ",
-            "animText3": "VITRI VINCI ",
-            "typeSpeed": "40",
-            "bgImageRadio": true,
-            "bgImage": "@PROJECT_PATH@/assets/images/schermafdruk-2020-04-07-10.57.19-1144x717.png",
-            "parallax": false,
-            "bgColorRadio": false,
-            "bgColor": "#2e2e2e",
-            "bgVideoRadio": false,
-            "bgVideo": {
-              "url": "https://www.youtube.com/watch?v=uNCr7NdOJgw"
-            },
-            "overlay": false,
-            "overlayColor": "#000",
-            "overlayOpacity": 0.1
-          },
-          "title": "<span style=\"font-weight: normal;\">ONDEK HIER VITRI &nbsp;- VINCI &nbsp;</span><br> FOR",
-          "text": "Full-screen intro with \"typed\" text effect. Enter in any string, and watch it type at the speed you have set, backspace what it is typed, and begin a new string. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Vel sunt, neque voluptatibus excepturi laboriosam possimus adipisci quidem dolores omnis, nemo dolore eligendi blanditiis voluptatem in, doloribus hic aperiam maiores fugit.",
-          "buttons": "<a data-app-btn=\"true\" class=\"btn btn-primary\" href=\"https://myalbum.com/album/67M6PuyGy5yM\" data-toolbar=\"-mbrBtnMove\">NEW BATHROOM INSPIRATIONS &nbsp;VITRI - VINCI PERFECTION&nbsp;</a>",
-          "alias": "mobirise3-blocks/components",
-          "_tags": [
-            "Extension"
-          ],
-          "_name": "extHeader11",
-          "_anchor": "extHeader11-5k",
-          "_styles": {
-            ".btn": {
-              "font-size": "24px",
-              "font-family": "'Roboto', sans-serif",
-              "googleLink": "https://fonts.googleapis.com/css?family=Roboto:400,300,700"
-            }
-          }
         },
         {
           "_inherit": "gallery1",
@@ -2529,8 +2592,8 @@
             "paddingBottom": 0,
             "filterBgColor": false,
             "bgColor": "#000000",
-            "showText": false,
-            "filter": false,
+            "showText": true,
+            "filter": true,
             "images": [
               {
                 "tags": "GLAZEN SCHUIFDEUREN ",
@@ -2597,8 +2660,8 @@
                 "videoPreview": "@THEME_PATH@/components/_images/gallery/preview.jpg",
                 "playVideo": false,
                 "videoUrl": "https://www.youtube.com/watch?v=uNCr7NdOJgw",
-                "image": "@PROJECT_PATH@/assets/images/48387098-1920769621305427-5175847131151335424-o-1536x2048.jpeg",
-                "thumb": "@PROJECT_PATH@/assets/images/48387098-1920769621305427-5175847131151335424-o-1536x2048-800x800.jpeg",
+                "image": "@PROJECT_PATH@/assets/images/schermafdruk-2020-03-30-12.48.35-576x600.png",
+                "thumb": "@PROJECT_PATH@/assets/images/schermafdruk-2020-03-30-12.48.35-576x600-460x460.png",
                 "alt": "",
                 "title": "",
                 "caption": "GLAZEN BALUSTRADES&nbsp;",
@@ -2738,9 +2801,6 @@
               "googleLink": "https://fonts.googleapis.com/css?family=Roboto:400,300,700",
               "font-size": "30px",
               "color": "#c0a375"
-            },
-            ".card-subtitle SPAN": {
-              "font-size": "24px"
             }
           },
           "_anchor": "extFeatures3-5d"
@@ -2758,8 +2818,7 @@
             },
             ".mbr-section-subtitle SPAN": {
               "font-family": "'Roboto', sans-serif",
-              "googleLink": "https://fonts.googleapis.com/css?family=Roboto:400,300,700",
-              "font-size": "24px"
+              "googleLink": "https://fonts.googleapis.com/css?family=Roboto:400,300,700"
             }
           },
           "_params": {
@@ -2782,8 +2841,8 @@
             "overlayColor": "#222",
             "overlayOpacity": 0.5
           },
-          "title": "<span style=\"font-weight: normal;\">INTERIEUR SPECIALS&nbsp;</span><span style=\"font-weight: normal;\">&nbsp; &nbsp;&nbsp;</span>",
-          "text": "<span style=\"font-style: normal;\">ELEGANT PERFECTLY&nbsp;</span>",
+          "title": "<span style=\"font-weight: normal;\">INTEREUR </span><br><span style=\"font-weight: normal;\">SPECIALS &nbsp; &nbsp;</span>",
+          "text": "<span style=\"font-style: normal;\">Cut down the development time with drag-and-drop website builder.</span>",
           "button": "<a data-app-btn=\"true\" class=\"btn btn-primary\" href=\"https://mobirise.com\">VIEW VIDEO TUTORIAL</a>",
           "_tags": [
             "Theme"
@@ -2801,8 +2860,8 @@
             "paddingBottom": 0,
             "filterBgColor": false,
             "bgColor": "#000000",
-            "showText": false,
-            "filter": false,
+            "showText": true,
+            "filter": true,
             "images": [
               {
                 "tags": "SCHEIDINGS WANDEN ",
@@ -2886,8 +2945,7 @@
             },
             ".mbr-section-subtitle SPAN": {
               "font-family": "'Roboto', sans-serif",
-              "googleLink": "https://fonts.googleapis.com/css?family=Roboto:400,300,700",
-              "font-size": "24px"
+              "googleLink": "https://fonts.googleapis.com/css?family=Roboto:400,300,700"
             }
           },
           "_params": {
@@ -2911,7 +2969,7 @@
             "overlayOpacity": 0.5
           },
           "title": "<span style=\"font-weight: normal;\">INTERIEUR ACCESOIRES &nbsp;</span>",
-          "text": "<span style=\"font-style: normal;\">ACCESOIRES CONCEPTION OF BEAUTY&nbsp;</span><br><span style=\"font-style: normal;\"><br></span>",
+          "text": "<span style=\"font-style: normal;\">Cut down the development time with drag-and-drop website builder.</span>",
           "button": "<a data-app-btn=\"true\" class=\"btn btn-primary\" href=\"https://mobirise.com\">VIEW VIDEO TUTORIAL</a>",
           "_tags": [
             "Theme"
@@ -2929,8 +2987,8 @@
             "paddingBottom": 0,
             "filterBgColor": false,
             "bgColor": "#000000",
-            "showText": false,
-            "filter": false,
+            "showText": true,
+            "filter": true,
             "images": [
               {
                 "tags": "GLAZEN SCHUIFDEUREN ",
@@ -3029,12 +3087,12 @@
           },
           "title": "<span style=\"font-weight: normal;\">GLAS &amp; WAND </span>&nbsp;",
           "title2": "<span style=\"font-weight: normal;\">THE PURE DIFFERENCE&nbsp;</span>",
-          "text": "<br>U denkt na over uw interieur.<br>U ontwikkelt ideeën voor uw woning of werkomgeving. <br>Waarin ruimte is voor kwaliteit,<br>eigentijds design en eigenzinnige details.<br> U droomt hoe mooi en stijlvol het kan worden.<br>",
+          "text": "<br>U denkt na over uw interieur.<br>U ontwikkelt ideeën voor uw woning of werkomgeving. Waarin ruimte is voor kwaliteit,<br>eigentijds design en eigenzinnige details.<br> U droomt hoe mooi en stijlvol het kan worden.<br>",
           "buttons": "<a data-app-btn=\"true\" class=\"btn btn-primary\" href=\"https://myalbum.com/album/o3x5MteghViC\" data-toolbar=\"-mbrBtnMove\">BEKIJK HIER ONZE BEDRIJFSBROCHURE&nbsp;</a>",
           "media": {
             "image": {
               "active": true,
-              "src": "@PROJECT_PATH@/assets/images/13582111-1354831214534178-6700541715183522695-o-900x1024.jpeg",
+              "src": "@PROJECT_PATH@/assets/images/13582111-1354831214534178-6700541715183522695-o-900x10240.jpeg",
               "link": "",
               "alt": "",
               "title": ""
@@ -3062,8 +3120,7 @@
           "_styles": {
             "SPAN": {
               "font-family": "'Roboto', sans-serif",
-              "googleLink": "https://fonts.googleapis.com/css?family=Roboto:400,300,700",
-              "color": "#ffffff"
+              "googleLink": "https://fonts.googleapis.com/css?family=Roboto:400,300,700"
             },
             "P": {
               "font-family": "'Roboto', sans-serif",
@@ -3098,7 +3155,7 @@
             "overlayOpacity": 0.5
           },
           "text": "FOLLOW US",
-          "icons": " <a data-app-btn=\"true\" class=\"btn btn-social\" title=\"Facebook\" target=\"_blank\" href=\"https://www.facebook.com/pages/Mobirise/1616226671953247\" data-toolbar=\"-mbrBtnAdd,-mbrBtnMove,-mbrFonts,-mbrFontSize,-mbrBtnColor\"><i class=\"socicon socicon-facebook\"></i></a>         ",
+          "icons": " <a data-app-btn=\"true\" class=\"btn btn-social\" title=\"Facebook\" target=\"_blank\" href=\"https://www.facebook.com/pages/Mobirise/1616226671953247\" data-toolbar=\"-mbrBtnAdd,-mbrBtnMove,-mbrFonts,-mbrFontSize,-mbrBtnColor\"><i class=\"socicon socicon-facebook\"></i></a>   <a data-app-btn=\"true\" class=\"btn btn-social\" title=\"Instagram\" target=\"_blank\" href=\"https://instagram.com/mobirise/\" data-toolbar=\"-mbrBtnAdd,-mbrBtnMove,-mbrFonts,-mbrFontSize,-mbrBtnColor\"><i class=\"socicon socicon-instagram\"></i></a> <a data-app-btn=\"true\" class=\"btn btn-social\" title=\"Pinterest\" target=\"_blank\" href=\"https://www.pinterest.com/mobirise/\" data-toolbar=\"-mbrBtnAdd,-mbrBtnMove,-mbrFonts,-mbrFontSize,-mbrBtnColor\"><i class=\"socicon socicon-pinterest\"></i></a>     ",
           "_tags": [
             "Theme"
           ],
@@ -3119,8 +3176,8 @@
             "overlayOpacity": 0.8
           },
           "buttons": "<a data-app-btn=\"true\" type=\"submit\" class=\"btn btn-sm btn-primary\" data-toolbar=\"-mbrLink,-mbrBtnAdd,-mbrBtnMove,-mbrBtnRemove\">Contact us</a>",
-          "text1": "<font color=\"#7c7c7c\" face=\"Montserrat, sans-serif\"><span style=\"font-size: 16px; letter-spacing: -1px;\"><b>GLAS &amp; WAND&nbsp;</b></span></font><br>Kopersteden 21&nbsp;<br>7547 TJ Enschede<br><br><br>\n<strong>Contacts</strong><br>\nEmail: info@glasenwand.nl&nbsp;<br>telefoon ; 053 -5721030&nbsp;<br>Mobiel ; &nbsp; &nbsp;06 53 772 934&nbsp;<br><br>Website : www.glasenwand.nl&nbsp;",
-          "text2": "<p class=\"mbr-contacts__text\"><strong>Links</strong></p><ul class=\"mbr-contacts__list\"><li>HOME&nbsp;</li><li>I<a href=\"page1.html\">NTERIEUR&nbsp;</a></li><li><a href=\"page 1.html\">EXTERIEUR&nbsp;</a></li><li><a href=\"page5.html\">GLASS &amp; WALL&nbsp;</a></li><li><a href=\"page4.html\">CONTAC</a>T&nbsp;</li></ul>",
+          "text1": "<strong>Address</strong><br>\n1234 Street Name<br>\nCity, AA 99999<br><br><br>\n<strong>Contacts</strong><br>\nEmail: support@mobirise.com<br>\nPhone: +1 (0) 000 0000 001<br>\nFax: +1 (0) 000 0000 002",
+          "text2": "<p class=\"mbr-contacts__text\"><strong>Links</strong></p><ul class=\"mbr-contacts__list\"><li><a class=\"text-white\" href=\"https://mobirise.com/\">Website builder</a></li><li><a class=\"text-white\" href=\"https://mobirise.com/mobirise-free-win.zip\">Download for Windows</a></li><li><a class=\"text-white\" href=\"https://mobirise.com/mobirise-free-mac.zip\">Download for Mac</a></li></ul>",
           "form": {
             "title": "MESSAGE",
             "action": "raymondterhuurne@gmail.com",
@@ -3156,20 +3213,12 @@
           "_anchor": "contacts4-1p",
           "_styles": {
             ".mbr-contacts p": {
-              "color": "#c0a375"
+              "color": "#ffffff"
             },
             ".btn": {
               "font-size": "18px",
               "font-family": "'Roboto', sans-serif",
               "googleLink": "https://fonts.googleapis.com/css?family=Roboto:400,300,700"
-            },
-            ".mbr-contacts__text": {
-              "color": "#c0a375"
-            },
-            ".mbr-contacts__text UL": {
-              "font-family": "'Roboto', sans-serif",
-              "googleLink": "https://fonts.googleapis.com/css?family=Roboto:400,300,700",
-              "font-size": "16px"
             }
           }
         }
@@ -3179,29 +3228,25 @@
       "settings": {
         "meta_descr": "Site Generator Description",
         "title": "CONTACT ",
-        "order": 5
+        "order": 6
       },
       "components": [
         {
           "_inherit": "menu",
           "_params": {
-            "logo": true,
-            "showBrand": false,
+            "logo": false,
+            "showBrand": true,
             "hideButtons": false,
             "sticky": true,
             "collapsed": true,
             "transparent": false,
             "bgColor": "#000000",
-            "fontSize": "1.7",
-            "fontName": {
-              "name": "Roboto Condensed",
-              "url": "https://fonts.googleapis.com/css?family=Roboto+Condensed:400,300,700",
-              "css": "'Roboto Condensed', sans-serif"
-            },
+            "fontSize": 0.75,
+            "fontName": {},
             "fontColor": "#ffffff",
             "fontHoverColor": "@primaryColor"
           },
-          "items": "<li class=\"nav-item dropdown open\"><a data-app-btn=\"true\" class=\"nav-link link dropdown-toggle\" href=\"page4.html\" data-toggle=\"dropdown-submenu\" aria-expanded=\"true\">HOME&nbsp;</a><div class=\"dropdown-menu\"><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"https://mobirise.com/\"></a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"https://mobirise.com/\"></a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"https://mobirise.com/\">&nbsp;</a></div></li><li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"https://mobirise.com/\" aria-expanded=\"false\">INTERIEUR &nbsp;</a></li><li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"page4.html\" aria-expanded=\"false\">EXTERIEUR&nbsp;</a></li><li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"page4.html\" aria-expanded=\"false\">GLASS &amp; WALL</a></li><li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"https://mobirise.com/\">CONTACT&nbsp;</a></li><li class=\"nav-item nav-btn\"><a data-app-btn=\"true\" data-button=\"\" data-app-selector=\".btn\" class=\"nav-link btn btn-primary-outline btn-primary\" href=\"https://youtu.be/ZjwijA4UA2A\">BEKIJK ONZE &nbsp;BEDRIJFSFILM&nbsp;</a></li><li class=\"nav-item nav-btn\"><a data-app-btn=\"true\" data-button=\"\" data-app-selector=\".btn\" class=\"nav-link btn btn-primary-outline btn-primary\" href=\"assets/files/INTRODUCTIE-VITRI-VINCI.pdf\">VITRI - VINCI LOOKBOOK&nbsp;</a></li>",
+          "items": "<li class=\"nav-item dropdown\"><a data-app-btn=\"true\" class=\"nav-link link dropdown-toggle\" href=\"https://mobirise.com/\" data-toggle=\"dropdown-submenu\" aria-expanded=\"false\">HOME&nbsp;</a><div class=\"dropdown-menu\"><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"https://mobirise.com/\">OVER ONS&nbsp;</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"https://mobirise.com/\">MISSIE&nbsp;</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"https://mobirise.com/\">VISIE&nbsp;</a></div></li><li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"https://mobirise.com/\" aria-expanded=\"false\">INTERIEUR &nbsp;</a></li><li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"https://mobirise.com/\" aria-expanded=\"false\">EXTERIEUR&nbsp;</a></li><li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"https://mobirise.com/\">CONTACT&nbsp;</a></li><li class=\"nav-item nav-btn\"><a data-app-btn=\"true\" data-button=\"\" data-app-selector=\".btn\" class=\"nav-link btn btn-primary-outline btn-primary\" href=\"https://youtu.be/ZjwijA4UA2A\">BEKIJK ONZE &nbsp;BEDRIJFSFILM&nbsp;</a></li><li class=\"nav-item nav-btn\"><a data-app-btn=\"true\" data-button=\"\" data-app-selector=\".btn\" class=\"nav-link btn btn-primary-outline btn-primary\" href=\"assets/files/VITRI-VINCI.pdf\">VIDI VINCI LOOKBOOK&nbsp;</a></li>",
           "_tags": [
             "Theme"
           ],
@@ -3210,8 +3255,7 @@
               "display": "none !important"
             },
             ".navbar-caption": {
-              "color": "#ffffff",
-              "font-size": "20px"
+              "color": "#ffffff"
             },
             ".navbar-toggler": {
               "color": "#ffffff"
@@ -3220,15 +3264,13 @@
               "background-color": "#ffffff"
             },
             ".link, .dropdown-item": {
-              "color": "#ffffff",
-              "googleLink": "https://fonts.googleapis.com/css?family=Roboto+Condensed:400,300,700",
-              "font-family": "'Roboto Condensed', sans-serif"
+              "color": "#ffffff"
             },
             ".link": {
-              "font-size": "1.7rem"
+              "font-size": "0.75rem"
             },
             ".dropdown-item, .nav-dropdown-sm .link": {
-              "font-size": "1.841rem"
+              "font-size": "0.812rem"
             },
             ".link:hover, .dropdown-item:hover, .link:focus, .dropdown-item:focus": {
               "color": "@primaryColor"
@@ -3254,39 +3296,23 @@
             },
             ".link[aria-expanded=\"true\"], .dropdown-item[aria-expanded=\"true\"]": {
               "color": "#c0a375!important"
-            },
-            "A": {
-              "font-size": "8px",
-              "font-family": "'Roboto', sans-serif",
-              "googleLink": "https://fonts.googleapis.com/css?family=Roboto:400,300,700"
-            },
-            ".btn": {
-              "font-family": "'Roboto', sans-serif",
-              "googleLink": "https://fonts.googleapis.com/css?family=Roboto:400,300,700",
-              "font-size": "20px"
             }
           },
           "logo": {
             "image": {
-              "src": "@PROJECT_PATH@/assets/images/logo-glas-en-wand-526x128.png",
+              "active": true,
+              "src": "@THEME_PATH@/components/_images/logo.png",
               "height": 128,
               "alt": "Mobirise",
-              "link": "page4.html",
-              "title": "",
-              "linkInNewWindow": false,
-              "active": true
+              "link": "https://mobirise.com"
             },
             "iconFont": {
               "class": "mbr-iconfont mbr-iconfont-menu",
               "link": "https://mobirise.com",
-              "size": 0,
-              "linkInNewWindow": false,
-              "name": "home",
-              "family": "MobiriseIcons",
-              "active": true
+              "size": 0
             }
           },
-          "brand": "<a class=\"navbar-caption\" data-app-btn=\"true\" data-app-selector=\".navbar-caption\" href=\"https://mobirise.com\" data-app-placeholder=\"Type Brand Name\" data-toolbar=\"-mbrBtnMove,-mbrBtnAdd,-mbrBtnRemove,mbrColor\">GLAS 7WAND&nbsp;</a>",
+          "brand": "<a class=\"navbar-caption\" data-app-btn=\"true\" data-app-selector=\".navbar-caption\" href=\"https://mobirise.com\" data-app-placeholder=\"Type Brand Name\" data-toolbar=\"-mbrBtnMove,-mbrBtnAdd,-mbrBtnRemove,mbrColor\">GLAS &amp; WAND&nbsp;</a>",
           "_name": "ext.menu",
           "_anchor": "ext_menu-1g"
         },
@@ -3301,7 +3327,7 @@
             "timeout": 5,
             "slides": [
               {
-                "image": "@PROJECT_PATH@/assets/images/36303900-10156603610839365-4908317827351445504-o-2000x1333.jpg",
+                "image": "@PROJECT_PATH@/assets/images/aa-1875x1250.jpg",
                 "active": true,
                 "showButtons": false,
                 "showText": false,
@@ -3316,14 +3342,14 @@
                 "alt": ""
               },
               {
-                "image": "@PROJECT_PATH@/assets/images/19957051-10155565574559365-7123145984165830242-o-1460x1200.jpg",
+                "image": "@PROJECT_PATH@/assets/images/img-45-2000x1500.jpeg",
                 "active": false,
                 "showButtons": false,
                 "showText": false,
                 "showTitle": true,
                 "playVideo": false,
                 "videoUrl": "https://www.youtube.com/watch?v=uNCr7NdOJgw",
-                "title": "<span style=\"font-weight: normal;\">GLAS &amp; WAND</span><br><span style=\"font-weight: normal;\">GAAT VOOR TEVREDEN KLANTEN ZOWEL B2B ALS DE CONSUMENT &nbsp;&nbsp;</span>",
+                "title": "<span style=\"font-weight: normal;\">&nbsp;</span>",
                 "overlay": true,
                 "contentAlign": "center",
                 "text": "Fullscreen slider with breath-taking pan & zoom also known as \"KenBurns\" effect and parallax transition between slides.",
@@ -3351,15 +3377,221 @@
         },
         {
           "_params": {
+            "showBullets": true,
+            "fullWidth": false,
+            "spacing": 0,
+            "paddingTop": 0,
+            "paddingBottom": 0,
+            "filterBgColor": false,
+            "bgColor": "#FFFFFF",
+            "showText": true,
+            "filter": false,
+            "images": [
+              {
+                "tags": "Responsive",
+                "videoPreview": "@THEME_PATH@/components/_images/gallery/preview.jpg",
+                "playVideo": false,
+                "videoUrl": "https://www.youtube.com/watch?v=uNCr7NdOJgw",
+                "image": "@PROJECT_PATH@/assets/images/15069000-1374515322582876-8239190257972626712-o-1-2000x1333.jpeg",
+                "thumb": "@PROJECT_PATH@/assets/images/15069000-1374515322582876-8239190257972626712-o-1-2000x1333-800x800.jpeg",
+                "alt": "",
+                "title": "",
+                "caption": "GLAS &amp; WAND PRODUCTEN LIJN&nbsp;",
+                "active": true
+              },
+              {
+                "tags": "Awesome",
+                "videoPreview": "@THEME_PATH@/components/_images/gallery/preview.jpg",
+                "playVideo": false,
+                "videoUrl": "https://www.youtube.com/watch?v=uNCr7NdOJgw",
+                "image": "@PROJECT_PATH@/assets/images/schermafdruk-2020-03-21-10.21.05-921x1001.png",
+                "thumb": "@PROJECT_PATH@/assets/images/schermafdruk-2020-03-21-10.21.05-921x1001-736x736.png",
+                "alt": "",
+                "title": "",
+                "caption": "GLAS &amp; &nbsp;INTERIEUR WAND SYTEEM WANDEN&nbsp;",
+                "active": false
+              },
+              {
+                "tags": "Creative",
+                "videoPreview": "@THEME_PATH@/components/_images/gallery/preview.jpg",
+                "playVideo": false,
+                "videoUrl": "https://www.youtube.com/watch?v=uNCr7NdOJgw",
+                "image": "@PROJECT_PATH@/assets/images/-atrapm-2000x1333.jpeg",
+                "thumb": "@PROJECT_PATH@/assets/images/atrapm-2000x1333-800x800.jpeg",
+                "alt": "",
+                "title": "",
+                "caption": "GLAS &amp; WAND INTERIEUR BADKAMERS &nbsp;"
+              },
+              {
+                "tags": "Animated",
+                "videoPreview": "@THEME_PATH@/components/_images/gallery/preview.jpg",
+                "playVideo": false,
+                "videoUrl": "https://www.youtube.com/watch?v=uNCr7NdOJgw",
+                "image": "@PROJECT_PATH@/assets/images/66817806-2618416704859392-2362449041792434176-o-1500x2000.jpeg",
+                "thumb": "@PROJECT_PATH@/assets/images/66817806-2618416704859392-2362449041792434176-o-1500x2000-800x800.jpeg",
+                "alt": "",
+                "title": "",
+                "caption": "GLAS &amp; WAND EXTERIEUR GLAS BOUWGLAS&nbsp;",
+                "active": false
+              }
+            ]
+          },
+          "articleLayout": false,
+          "allItem": "All",
+          "_tags": [
+            "Theme"
+          ],
+          "_name": "gallery1",
+          "_anchor": "gallery1-5g"
+        },
+        {
+          "_styles": {
+            ".mbr-section-title": {
+              "color": "#fff"
+            },
+            ".mbr-section-subtitle": {
+              "color": "#c0a375"
+            }
+          },
+          "_params": {
             "showTitle": true,
-            "showText": false,
+            "showText": true,
+            "showButtons": false,
+            "inverse": true,
+            "paddingTop": 3,
+            "paddingBottom": 3,
+            "bgImageRadio": false,
+            "bgImage": "@THEME_PATH@/components/_images/jumbotron.jpg",
+            "parallax": true,
+            "bgColorRadio": true,
+            "bgColor": "#000000",
+            "bgVideoRadio": false,
+            "bgVideo": {
+              "url": "https://www.youtube.com/watch?v=uNCr7NdOJgw"
+            },
+            "overlay": false,
+            "overlayColor": "#222",
+            "overlayOpacity": 0.5
+          },
+          "title": "TRENDY WEBSITE BLOCKS",
+          "text": "Cut down the development time with drag-and-drop website builder.",
+          "button": "<a data-app-btn=\"true\" class=\"btn btn-primary\" href=\"https://mobirise.com\">VIEW VIDEO TUTORIAL</a>",
+          "_tags": [
+            "Theme"
+          ],
+          "_name": "msg-box2",
+          "_anchor": "msg-box2-1i"
+        },
+        {
+          "_params": {
+            "showImages": false,
+            "showTitles": true,
+            "showSubtitles": true,
+            "ShowTexts": true,
+            "showButtons": false,
+            "iconsBgColor": "#cccccc",
+            "paddingTop": "3",
+            "paddingBottom": "4",
+            "columns": "3",
+            "bgImageRadio": false,
+            "bgImage": "@PROJECT_PATH@/assets/images/14468434_1875659585982696_3317006824705473118_o-2000x1484.jpeg",
+            "parallax": true,
+            "bgColorRadio": true,
+            "bgColor": "#000000",
+            "bgVideoRadio": false,
+            "bgVideo": {
+              "url": "https://www.youtube.com/watch?v=uNCr7NdOJgw"
+            },
+            "overlay": false,
+            "overlayColor": "#222",
+            "overlayOpacity": 0.8
+          },
+          "media1": {
+            "iconFont": {
+              "active": true,
+              "class": "mbr-iconfont mbr-iconfont-features4",
+              "name": "phone",
+              "link": "https://mobirise.com",
+              "size": 0,
+              "color": "#c39f76",
+              "family": "et-line"
+            }
+          },
+          "media2": {
+            "iconFont": {
+              "active": true,
+              "class": "mbr-iconfont mbr-iconfont-features4",
+              "name": "edit",
+              "link": "https://mobirise.com",
+              "size": 0,
+              "color": "#c39f76",
+              "family": "et-line"
+            }
+          },
+          "media3": {
+            "iconFont": {
+              "active": true,
+              "class": "mbr-iconfont mbr-iconfont-features4",
+              "name": "briefcase",
+              "link": "https://mobirise.com",
+              "size": 0,
+              "color": "#c39f76",
+              "family": "et-line"
+            }
+          },
+          "media4": {
+            "iconFont": {
+              "active": true,
+              "class": "mbr-iconfont mbr-iconfont-features4",
+              "name": "linegraph",
+              "link": "https://mobirise.com",
+              "size": 0,
+              "color": "#c39f76",
+              "family": "et-line"
+            }
+          },
+          "title1": "Bootstrap 4",
+          "subtitle1": "Bootstrap 4 has been noted",
+          "caption1": "Bootstrap 4 has been noted as one of the most reliable and proven frameworks and Mobirise has been equipped to develop websites using this framework.",
+          "title2": "Responsive",
+          "subtitle2": "One of Bootstrap 4s big points",
+          "caption2": "Mobirise themes are based on Bootstrap 3 and Bootstrap 4 - most powerful mobile first framework. Now, even if you're not code-savvy, you can be a part of an exciting growing bootstrap community.",
+          "title3": "Web Fonts",
+          "subtitle3": "Google has a highly exhaustive list of fonts",
+          "caption3": "Google has a highly exhaustive list of fonts compiled into its web font platform and Mobirise makes it easy for you to use them on your website easily and freely.",
+          "title4": "Unlimited Sites",
+          "subtitle4": "Mobirise gives you the freedom to develop",
+          "caption4": "Mobirise gives you the freedom to develop as many websites as you like given the fact that it is a desktop app.",
+          "button1": "<a data-app-btn=\"true\" href=\"https://mobirise.com\" class=\"btn btn-primary\">MORE</a>",
+          "button2": "<a data-app-btn=\"true\" href=\"https://mobirise.com\" class=\"btn btn-primary\">MORE</a>",
+          "button3": "<a data-app-btn=\"true\" href=\"https://mobirise.com\" class=\"btn btn-primary\">MORE</a>",
+          "button4": "<a data-app-btn=\"true\" href=\"https://mobirise.com\" class=\"btn btn-primary\">MORE</a>",
+          "alias": "mobirise3-blocks/components",
+          "_tags": [
+            "Extension"
+          ],
+          "_name": "extFeatures3",
+          "_styles": {
+            ".mbr-iconfont-features4": {
+              "color": "#cccccc !important"
+            },
+            ".wraper": {
+              "border-color": "#cccccc !important"
+            }
+          },
+          "_anchor": "extFeatures3-1j"
+        },
+        {
+          "_params": {
+            "showTitle": true,
+            "showText": true,
             "showButtons": true,
             "showArrow": true,
-            "showIcons": false,
+            "showIcons": true,
             "iconsColor": "#fff",
-            "showTitles": false,
+            "showTitles": true,
             "bgImageRadio": true,
-            "bgImage": "@PROJECT_PATH@/assets/images/66031886-10157595092664365-2414745920798195712-o-1600x1067.jpg",
+            "bgImage": "@PROJECT_PATH@/assets/images/img-extheader3-bg.jpg",
             "parallax": false,
             "bgColorRadio": false,
             "bgColor": "#2e2e2e",
@@ -3371,9 +3603,9 @@
             "overlayColor": "#000",
             "overlayOpacity": 0.3
           },
-          "title": "<span style=\"font-weight: normal;\">BLIJF ONS VOLGEN OP FACEBOOK&nbsp;</span>",
+          "title": "INTRO WITH ICONS",
           "text": "Full-screen intro with background image, color overlay and icons. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Vel sunt, neque voluptatibus excepturi laboriosam possimus adipisci quidem dolores omnis, nemo dolore eligendi blanditiis voluptatem in, doloribus hic aperiam maiores fugit.",
-          "buttons": "<a data-app-btn=\"true\" class=\"btn btn-primary\" href=\"https://mobirise.com\" data-toolbar=\"-mbrBtnMove\">MORE</a>",
+          "buttons": "<a data-app-btn=\"true\" class=\"btn btn-primary\" href=\"https://mobirise.com\">MORE</a>",
           "title1": "Multi Layouts",
           "title2": "Creative Idea",
           "title3": "Target Buyers",
@@ -3427,14 +3659,7 @@
             "Extension"
           ],
           "_name": "extHeader3",
-          "_anchor": "extHeader3-1k",
-          "_styles": {
-            ".btn": {
-              "font-family": "'Roboto', sans-serif",
-              "googleLink": "https://fonts.googleapis.com/css?family=Roboto:400,300,700",
-              "font-size": "20px"
-            }
-          }
+          "_anchor": "extHeader3-1k"
         },
         {
           "_params": {
@@ -3444,14 +3669,59 @@
             "paddingTop": 3,
             "paddingBottom": 2,
             "bgImageRadio": false,
-            "bgImage": "@THEME_PATH@-blocks/components/_images/img_extHeader11_bg.jpg",
+            "bgImage": "@PROJECT_PATH@/assets/images/12377746_1119433104757767_4888003597908426683_o-2000x1500.jpeg",
             "parallax": false,
             "bgColorRadio": true,
             "bgColor": "#000000",
-            "bgText": "VIDI VINCI NEW INOVATION ",
-            "bgTextStyle": "Montserrat",
-            "bgTextColor": "#5e5546",
+            "bgText": "NIEUW EXELENT GLASCONCEPT VAN GLAS & WAND ",
+            "bgTextStyle": "RobotoCondensed",
+            "bgTextColor": "#49403b",
             "bgTextSize": 250,
+            "bgVideoRadio": false,
+            "bgVideo": {
+              "url": "https://www.youtube.com/watch?v=uNCr7NdOJgw"
+            },
+            "overlay": false,
+            "overlayColor": "#000",
+            "overlayOpacity": 0.1
+          },
+          "title": "<span style=\"font-weight: normal;\">NEW CONCEPT GLAS &amp; WAND </span><br><span style=\"font-weight: normal;\">&nbsp;VITRI VINCI&nbsp;</span>",
+          "text": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Vel sunt, neque voluptatibus excepturi laboriosam possimus adipisci quidem dolores omnis, nemo dolore eligendi blanditiis voluptatem in, doloribus hic aperiam maiores fugit.",
+          "buttons": "<a data-app-btn=\"true\" class=\"btn btn-primary\" href=\"https://mobirise.com\" data-toolbar=\"-mbrBtnMove\">GET FREE TRIAL</a>",
+          "alias": "mobirise3-blocks/components",
+          "_tags": [
+            "Extension"
+          ],
+          "_name": "extMsg-box4",
+          "_styles": {
+            "SPAN": {
+              "font-family": "'Roboto', sans-serif",
+              "googleLink": "https://fonts.googleapis.com/css?family=Roboto:400,300,700"
+            },
+            "P": {
+              "text-align": "left"
+            }
+          },
+          "_anchor": "extMsg-box4-1l"
+        },
+        {
+          "_params": {
+            "showTitle": true,
+            "showText": true,
+            "showButtons": true,
+            "inverse": false,
+            "animText1": "MOBILE",
+            "animText2": "AWESOME",
+            "animText3": "FREE",
+            "typeSpeed": 50,
+            "imageSize": 50,
+            "paddingTop": 3,
+            "paddingBottom": 3,
+            "bgImageRadio": false,
+            "bgImage": "@PROJECT_PATH@/assets/images/14468434_1875659585982696_3317006824705473118_o-1-2000x1484.jpeg",
+            "parallax": false,
+            "bgColorRadio": true,
+            "bgColor": "#000000",
             "bgVideoRadio": false,
             "bgVideo": {
               "url": "https://www.youtube.com/watch?v=uNCr7NdOJgw"
@@ -3460,37 +3730,49 @@
             "overlayColor": "#000",
             "overlayOpacity": 0.1
           },
-          "title": "<span style=\"font-weight: normal;\">GLAS &amp; WAND DESIGNED TO NEW CONCEPT VITRI - &nbsp;VINCI&nbsp;</span>",
-          "text": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Vel sunt, neque voluptatibus excepturi laboriosam possimus adipisci quidem dolores omnis, nemo dolore eligendi blanditiis voluptatem in, doloribus hic aperiam maiores fugit.",
-          "buttons": "<a data-app-btn=\"true\" class=\"btn btn-primary\" href=\"https://myalbum.com/album/qxGyJ7qGWk7k\" data-toolbar=\"-mbrBtnMove\">&nbsp; VITRI &nbsp;VINCI &nbsp;DESIGN &nbsp;&amp; QUALITA ITALIANI BEKIJK ONZE BROCHURE &nbsp;</a>",
+          "title": "CREATE ",
+          "title2": "WEBSITES!",
+          "text": "Block with media and \"typed\" text effect. Enter in any string, and watch it type at the speed you have set, backspace what it is typed, and begin a new string. Lorem ipsum dolor sit amet, consectetur adipisicing elit.",
+          "buttons": "<a data-app-btn=\"true\" class=\"btn btn-primary\" href=\"https://myalbum.com/album/o3x5MteghViC\" data-toolbar=\"-mbrBtnMove\">BEKIJK HIER ONZE BEDRIJFSBROCHURE&nbsp;</a>",
+          "media": {
+            "image": {
+              "active": true,
+              "src": "@PROJECT_PATH@/assets/images/aa-1875x1250.jpeg",
+              "link": "",
+              "alt": "",
+              "title": ""
+            },
+            "iconFont": {
+              "class": "mbr-iconfont mbr-iconfont-features4",
+              "name": "pencil",
+              "link": "#modalWindow",
+              "size": 250,
+              "color": "#e6e6e6",
+              "family": "et-line"
+            },
+            "video": {
+              "src": "https://www.youtube.com/watch?v=Tq7p44IA-1U",
+              "aspectratio": "16:9",
+              "autoplay": false,
+              "loop": false
+            }
+          },
           "alias": "mobirise3-blocks/components",
           "_tags": [
             "Extension"
           ],
-          "_name": "extMsg-box4",
-          "_styles": {
-            "SPAN": {
-              "text-align": "right",
-              "font-family": "'Roboto', sans-serif",
-              "googleLink": "https://fonts.googleapis.com/css?family=Roboto:400,300,700"
-            },
-            ".btn": {
-              "font-family": "'Roboto', sans-serif",
-              "googleLink": "https://fonts.googleapis.com/css?family=Roboto:400,300,700",
-              "font-size": "20px"
-            }
-          },
-          "_anchor": "extMsg-box4-61"
+          "_name": "extMsg-box3",
+          "_anchor": "extMsg-box3-1m"
         },
         {
           "_params": {
             "showTitle": true,
-            "showText": false,
+            "showText": true,
             "showButtons": false,
             "inverse": true,
             "showArrow": true,
             "bgImageRadio": true,
-            "bgImage": "@PROJECT_PATH@/assets/images/39745228-10156756032564365-3391896588895911936-o-1600x1067.jpg",
+            "bgImage": "@PROJECT_PATH@/assets/images/img-extheader8-bg.jpg",
             "parallax": false,
             "bgColorRadio": false,
             "bgColor": "#2e2e2e",
@@ -3502,77 +3784,18 @@
             "overlayColor": "#7c706b",
             "overlayOpacity": 0.4
           },
-          "title": "<span style=\"font-weight: normal;\">VOOR AL UW VRAGEN STAAN WIJ VOOR U KLAAR&nbsp;</span>",
+          "title": "INTRO WITH FORM",
           "text": "Full-screen intro with background image and subscribe form on the left side. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Vel sunt, neque voluptatibus excepturi laboriosam possimus adipisci quidem dolores omnis, nemo dolore eligendi blanditiis voluptatem in, doloribus hic aperiam maiores fugit.",
           "buttons": "<a data-app-btn=\"true\" class=\"btn btn-info\" href=\"https://mobirise.com\">MORE</a>",
           "buttons2": "<a data-app-btn=\"true\" type=\"submit\" class=\"btn btn-primary\" data-toolbar=\"-mbrLink,-mbrBtnAdd,-mbrBtnMove\">GET STARTED</a>",
           "form": {
             "action": "raymondterhuurne@gmail.com",
             "alerts": {
-              "success": "WIJ BEDANKEN U VOOR UW BELANGSTELLING "
-            },
-            "fields": {
-              "name": {
-                "visible": true,
-                "title": "Name",
-                "customTitle": "NAAM *"
-              },
-              "email": {
-                "visible": true,
-                "title": "Email",
-                "customTitle": "EMAIL *"
-              },
-              "phone": {
-                "visible": true,
-                "title": "Phone",
-                "customTitle": "TELEFOON MOBIEL *"
-              },
-              "message": {
-                "visible": true,
-                "title": "Message",
-                "customTitle": "VRAAG* "
-              }
-            }
-          },
-          "alias": "mobirise3-blocks/components",
-          "_tags": [
-            "Extension"
-          ],
-          "_name": "extHeader8",
-          "_anchor": "extHeader8-1n",
-          "_styles": {
-            ".btn": {
-              "font-family": "'Roboto', sans-serif",
-              "googleLink": "https://fonts.googleapis.com/css?family=Roboto:400,300,700",
-              "font-size": "24px"
-            }
-          }
-        },
-        {
-          "_params": {
-            "paddingTop": "4",
-            "paddingBottom": "4",
-            "bgImageRadio": false,
-            "bgImage": "@THEME_PATH@/components/_images/jumbotron.jpg",
-            "parallax": true,
-            "bgColorRadio": true,
-            "bgColor": "#000000",
-            "overlay": true,
-            "overlayColor": "#3C3C3C",
-            "overlayOpacity": 0.8
-          },
-          "buttons": "<a data-app-btn=\"true\" type=\"submit\" class=\"btn btn-sm btn-primary\" data-toolbar=\"-mbrLink,-mbrBtnAdd,-mbrBtnMove,-mbrBtnRemove\">Contact us</a>",
-          "text1": "<font color=\"#7c7c7c\" face=\"Montserrat, sans-serif\"><span style=\"font-size: 16px; letter-spacing: -1px;\"><b>GLAS &amp; WAND&nbsp;</b></span></font><br>Kopersteden 21&nbsp;<br>7547 TJ Enschede<br><br><br>\n<strong>Contacts</strong><br>\nEmail: info@glasenwand.nl&nbsp;<br>telefoon ; 053 -5721030&nbsp;<br>Mobiel ; &nbsp; &nbsp;06 53 772 934&nbsp;<br><br>Website : www.glasenwand.nl&nbsp;",
-          "text2": "<p class=\"mbr-contacts__text\"><strong>Links</strong></p><ul class=\"mbr-contacts__list\"><li>HOME&nbsp;</li><li>I<a href=\"page1.html\">NTERIEUR&nbsp;</a></li><li><a href=\"page 1.html\">EXTERIEUR&nbsp;</a></li><li><a href=\"page5.html\">GLASS &amp; WALL&nbsp;</a></li><li><a href=\"page4.html\">CONTAC</a>T&nbsp;</li></ul>",
-          "form": {
-            "title": "MESSAGE",
-            "action": "raymondterhuurne@gmail.com",
-            "alerts": {
               "success": "Thanks for filling out form!"
             },
             "fields": {
               "name": {
-                "visible": false,
+                "visible": true,
                 "title": "Name",
                 "customTitle": "Name*"
               },
@@ -3582,39 +3805,23 @@
                 "customTitle": "Email*"
               },
               "phone": {
-                "visible": false,
+                "visible": true,
                 "title": "Phone",
-                "customTitle": "Phone"
+                "customTitle": "Phone*"
               },
               "message": {
+                "visible": true,
                 "title": "Message",
                 "customTitle": "Message"
               }
             }
           },
+          "alias": "mobirise3-blocks/components",
           "_tags": [
-            "Theme"
+            "Extension"
           ],
-          "_name": "contacts4",
-          "_anchor": "contacts4-1p",
-          "_styles": {
-            ".mbr-contacts p": {
-              "color": "#c0a375"
-            },
-            ".btn": {
-              "font-size": "18px",
-              "font-family": "'Roboto', sans-serif",
-              "googleLink": "https://fonts.googleapis.com/css?family=Roboto:400,300,700"
-            },
-            ".mbr-contacts__text": {
-              "color": "#c0a375"
-            },
-            ".mbr-contacts__text UL": {
-              "font-family": "'Roboto', sans-serif",
-              "googleLink": "https://fonts.googleapis.com/css?family=Roboto:400,300,700",
-              "font-size": "16px"
-            }
-          }
+          "_name": "extHeader8",
+          "_anchor": "extHeader8-1n"
         }
       ]
     },
@@ -3622,29 +3829,25 @@
       "settings": {
         "meta_descr": "Web Site Generator Description",
         "title": "EXTERIEUR ",
-        "order": 3
+        "order": 4
       },
       "components": [
         {
           "_inherit": "menu",
           "_params": {
-            "logo": true,
-            "showBrand": false,
+            "logo": false,
+            "showBrand": true,
             "hideButtons": false,
             "sticky": true,
             "collapsed": true,
             "transparent": false,
             "bgColor": "#000000",
-            "fontSize": "1.7",
-            "fontName": {
-              "name": "Roboto Condensed",
-              "url": "https://fonts.googleapis.com/css?family=Roboto+Condensed:400,300,700",
-              "css": "'Roboto Condensed', sans-serif"
-            },
+            "fontSize": 0.75,
+            "fontName": {},
             "fontColor": "#ffffff",
             "fontHoverColor": "@primaryColor"
           },
-          "items": "<li class=\"nav-item dropdown open\"><a data-app-btn=\"true\" class=\"nav-link link dropdown-toggle\" href=\"page4.html\" data-toggle=\"dropdown-submenu\" aria-expanded=\"true\">HOME&nbsp;</a><div class=\"dropdown-menu\"><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"https://mobirise.com/\"></a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"https://mobirise.com/\"></a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"https://mobirise.com/\">&nbsp;</a></div></li><li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"https://mobirise.com/\" aria-expanded=\"false\">INTERIEUR &nbsp;</a></li><li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"page4.html\" aria-expanded=\"false\">EXTERIEUR&nbsp;</a></li><li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"page4.html\" aria-expanded=\"false\">GLASS &amp; WALL</a></li><li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"https://mobirise.com/\">CONTACT&nbsp;</a></li><li class=\"nav-item nav-btn\"><a data-app-btn=\"true\" data-button=\"\" data-app-selector=\".btn\" class=\"nav-link btn btn-primary-outline btn-primary\" href=\"https://youtu.be/ZjwijA4UA2A\">BEKIJK ONZE &nbsp;BEDRIJFSFILM&nbsp;</a></li><li class=\"nav-item nav-btn\"><a data-app-btn=\"true\" data-button=\"\" data-app-selector=\".btn\" class=\"nav-link btn btn-primary-outline btn-primary\" href=\"assets/files/INTRODUCTIE-VITRI-VINCI.pdf\">VITRI - VINCI LOOKBOOK&nbsp;</a></li>",
+          "items": "<li class=\"nav-item dropdown\"><a data-app-btn=\"true\" class=\"nav-link link dropdown-toggle\" href=\"https://mobirise.com/\" data-toggle=\"dropdown-submenu\" aria-expanded=\"false\">HOME&nbsp;</a><div class=\"dropdown-menu\"><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"https://mobirise.com/\">OVER ONS&nbsp;</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"https://mobirise.com/\">MISSIE&nbsp;</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"https://mobirise.com/\">VISIE&nbsp;</a></div></li><li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"https://mobirise.com/\" aria-expanded=\"false\">INTERIEUR &nbsp;</a></li><li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"https://mobirise.com/\" aria-expanded=\"false\">EXTERIEUR&nbsp;</a></li><li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"https://mobirise.com/\">CONTACT&nbsp;</a></li><li class=\"nav-item nav-btn\"><a data-app-btn=\"true\" data-button=\"\" data-app-selector=\".btn\" class=\"nav-link btn btn-primary-outline btn-primary\" href=\"https://youtu.be/ZjwijA4UA2A\">BEKIJK ONZE &nbsp;BEDRIJFSFILM&nbsp;</a></li><li class=\"nav-item nav-btn\"><a data-app-btn=\"true\" data-button=\"\" data-app-selector=\".btn\" class=\"nav-link btn btn-primary-outline btn-primary\" href=\"assets/files/VITRI-VINCI.pdf\">VIDI VINCI LOOKBOOK&nbsp;</a></li>",
           "_tags": [
             "Theme"
           ],
@@ -3653,8 +3856,7 @@
               "display": "none !important"
             },
             ".navbar-caption": {
-              "color": "#ffffff",
-              "font-size": "20px"
+              "color": "#ffffff"
             },
             ".navbar-toggler": {
               "color": "#ffffff"
@@ -3663,15 +3865,13 @@
               "background-color": "#ffffff"
             },
             ".link, .dropdown-item": {
-              "color": "#ffffff",
-              "googleLink": "https://fonts.googleapis.com/css?family=Roboto+Condensed:400,300,700",
-              "font-family": "'Roboto Condensed', sans-serif"
+              "color": "#ffffff"
             },
             ".link": {
-              "font-size": "1.7rem"
+              "font-size": "0.75rem"
             },
             ".dropdown-item, .nav-dropdown-sm .link": {
-              "font-size": "1.841rem"
+              "font-size": "0.812rem"
             },
             ".link:hover, .dropdown-item:hover, .link:focus, .dropdown-item:focus": {
               "color": "@primaryColor"
@@ -3697,39 +3897,23 @@
             },
             ".link[aria-expanded=\"true\"], .dropdown-item[aria-expanded=\"true\"]": {
               "color": "#c0a375!important"
-            },
-            "A": {
-              "font-size": "8px",
-              "font-family": "'Roboto', sans-serif",
-              "googleLink": "https://fonts.googleapis.com/css?family=Roboto:400,300,700"
-            },
-            ".btn": {
-              "font-family": "'Roboto', sans-serif",
-              "googleLink": "https://fonts.googleapis.com/css?family=Roboto:400,300,700",
-              "font-size": "20px"
             }
           },
           "logo": {
             "image": {
-              "src": "@PROJECT_PATH@/assets/images/logo-glas-en-wand-526x128.png",
+              "active": true,
+              "src": "@THEME_PATH@/components/_images/logo.png",
               "height": 128,
               "alt": "Mobirise",
-              "link": "page4.html",
-              "title": "",
-              "linkInNewWindow": false,
-              "active": true
+              "link": "https://mobirise.com"
             },
             "iconFont": {
               "class": "mbr-iconfont mbr-iconfont-menu",
               "link": "https://mobirise.com",
-              "size": 0,
-              "linkInNewWindow": false,
-              "name": "home",
-              "family": "MobiriseIcons",
-              "active": true
+              "size": 0
             }
           },
-          "brand": "<a class=\"navbar-caption\" data-app-btn=\"true\" data-app-selector=\".navbar-caption\" href=\"https://mobirise.com\" data-app-placeholder=\"Type Brand Name\" data-toolbar=\"-mbrBtnMove,-mbrBtnAdd,-mbrBtnRemove,mbrColor\">GLAS 7WAND&nbsp;</a>",
+          "brand": "<a class=\"navbar-caption\" data-app-btn=\"true\" data-app-selector=\".navbar-caption\" href=\"https://mobirise.com\" data-app-placeholder=\"Type Brand Name\" data-toolbar=\"-mbrBtnMove,-mbrBtnAdd,-mbrBtnRemove,mbrColor\">GLAS &amp; WAND&nbsp;</a>",
           "_name": "ext.menu",
           "_anchor": "ext_menu-v"
         },
@@ -3760,14 +3944,14 @@
                 "overlayOpacity": "0.6"
               },
               {
-                "image": "@PROJECT_PATH@/assets/images/interior-1026447-1920-1920x1029.jpg",
+                "image": "@PROJECT_PATH@/assets/images/mbr-1920x1246.jpeg",
                 "active": true,
                 "showButtons": false,
                 "showText": false,
                 "showTitle": true,
                 "playVideo": false,
                 "videoUrl": "https://www.youtube.com/watch?v=uNCr7NdOJgw",
-                "title": "GLAS &amp; WAND EXTERIEUR&nbsp;<br>DISIGNED TO CONNECT&nbsp;",
+                "title": "GLAS & WAND EXTERIEUR <br>DISIGNED TO CONECT ",
                 "overlay": false,
                 "contentAlign": "center",
                 "text": "Fullscreen slider with breath-taking pan & zoom also known as \"KenBurns\" effect and parallax transition between slides.",
@@ -3791,8 +3975,7 @@
             "H2": {
               "text-align": "left",
               "font-family": "'Raleway', sans-serif",
-              "googleLink": "https://fonts.googleapis.com/css?family=Raleway:400,300,700",
-              "color": "#ffffff"
+              "googleLink": "https://fonts.googleapis.com/css?family=Raleway:400,300,700"
             }
           },
           "_anchor": "extSlider1-43"
@@ -3849,8 +4032,7 @@
             },
             ".mbr-section-subtitle SPAN": {
               "font-family": "'Roboto', sans-serif",
-              "googleLink": "https://fonts.googleapis.com/css?family=Roboto:400,300,700",
-              "font-size": "24px"
+              "googleLink": "https://fonts.googleapis.com/css?family=Roboto:400,300,700"
             }
           },
           "_params": {
@@ -3874,7 +4056,7 @@
             "overlayOpacity": 0.5
           },
           "title": "<span style=\"font-weight: normal;\">GLAS &amp; WAND &nbsp;EXTERIEUR GLAS &nbsp;</span>",
-          "text": "<span style=\"font-style: normal;\">GLASCONSTRUCTIES ,TRANSPORANT OF GEWOON MOOI&nbsp;</span>",
+          "text": "<span style=\"font-style: normal;\">Cut down the development time with drag-and-drop website builder.</span>",
           "button": "<a data-app-btn=\"true\" class=\"btn btn-primary\" href=\"https://mobirise.com\">VIEW VIDEO TUTORIAL</a>",
           "_tags": [
             "Theme"
@@ -3955,7 +4137,7 @@
           "caption1": "&nbsp;<br>Bouwglas Glas als materiaal beschikt over een 5.000 jaar oude traditie.<br> Al vroeg ontdekte men de betekenis van glas als bouwmateriaal. <br>Glas werd een synoniem voor verlichting, bescherming en behaaglijkheid. <br>Heden wordt glas &nbsp;ingezet voor de beglazing van ramen, deuren, serres en gevels met bijzondere warmte-, zon- en geluidsisolaie-effecten op het gebied van nieuwbouw en renovatie.<br>",
           "title2": "GLAS &nbsp;&amp; WAND&nbsp;",
           "subtitle2": "<span style=\"font-style: normal;\">PRODUCT GROEP EXTERIEUR&nbsp;</span>",
-          "caption2": "Er is vrijwel geen glasproduct waar Glas&amp;Wand u niet verder mee kan helpen voor de bouwprocessen.\n<br>Met toegang tot voorraden voor vrijwel elk type glas, snijcapaciteiten, bewerkingsmogelijkheden, een gigantisch scala aan isolatieglas-oplossingen, b.v. thermisch(HR++)-geluid-zonbelasting-actieve en passieve veiligheid, brandwering, voorzetglas, deuren, wanden, balustrades, bedenk het maar. Gelaagd glas, gehard glas of combinaties.\n<br><br>Bij Glas&amp;Wand wordt niet achter het net gevist. Kennis, kunde en ervaring gaan hand in hand.\n<br>\n<br>",
+          "caption2": "Adviezen, produktie, distributie, uitvoering , service en garantie .<br>Zij streeft naar de hoogst betaalbare kwaliteit bij alle glas en wandproducten die zij voert.\n<br>Bij de keuzen die gemaakt worden bij basismaterialen, halffabricaten en outillage wordt nauwkeurig op de kwaliteit gelet, zodat het bedrijf met haar activiteiten een optimaal eindproduct of dienst kan garanderen.&nbsp;<br>",
           "title3": "Web Fonts",
           "subtitle3": "Google has a highly exhaustive list of fonts",
           "caption3": "Google has a highly exhaustive list of fonts compiled into its web font platform and Mobirise makes it easy for you to use them on your website easily and freely.",
@@ -3995,9 +4177,6 @@
               "googleLink": "https://fonts.googleapis.com/css?family=Roboto:400,300,700",
               "font-size": "30px",
               "color": "#c0a375"
-            },
-            ".card-subtitle SPAN": {
-              "font-size": "24px"
             }
           },
           "_anchor": "extFeatures3-3u"
@@ -4028,7 +4207,7 @@
           },
           "media1": {
             "image": {
-              "src": "@PROJECT_PATH@/assets/images/12304516-1111211422246602-5156510250297416259-o-600x400.jpeg",
+              "src": "@PROJECT_PATH@/assets/images/mbr-600x389.jpeg",
               "class": "card-img-top",
               "width": 600,
               "active": true,
@@ -4039,7 +4218,7 @@
           },
           "media2": {
             "image": {
-              "src": "@PROJECT_PATH@/assets/images/schermafdruk-2020-01-17-13.16.42-423x388.png",
+              "src": "@PROJECT_PATH@/assets/images/mbr-600x400.jpeg",
               "class": "card-img-top",
               "width": 600,
               "active": true,
@@ -4050,7 +4229,7 @@
           },
           "media3": {
             "image": {
-              "src": "@PROJECT_PATH@/assets/images/glas-bouw-1600-600x298.png",
+              "src": "@PROJECT_PATH@/assets/images/mbr-600x450.jpeg",
               "class": "card-img-top",
               "width": 600,
               "active": true,
@@ -4191,10 +4370,10 @@
           },
           "title1": "GLAS &amp; WAND&nbsp;",
           "subtitle1": "<span style=\"font-style: normal;\">PRODUCT GROEP EXTERIEUR&nbsp;</span>&nbsp;",
-          "caption1": "&nbsp;<br>Specials:\n<br>Tegenwoordig wordt er ook steeds meer geconstrueerd met glas. <br>Dus daar waar glas een dragende functie inneemt, wordt glas constructief genoemd. <br>Bij de uitdagingen die hier aan kleven, kunnen wij u bij helpen.\n<br>Bijzondere glasproducten als “loodglas”, “lasglas”, opale glassoorten, antiek, maar ook monumentaal, met alles kunnen wij u van dienst zijn.&nbsp;<br>",
+          "caption1": "&nbsp;<br>Dynamische, ervaren, flexibele, innovatieve en inspirerende mensen gaan schuil achter de producten en diensten van Glas &amp; Wand. <br>Meer dan 40 jaar ervaring in glas en meer dan 20 jaar in wanden, waarbij de interesse voor de producten en haar mooie toepassingen gevoeld wordt en met u wordt gedeeld.&nbsp;<br>",
           "title2": "GLAS &nbsp;&amp; WAND&nbsp;",
           "subtitle2": "<span style=\"font-style: normal;\">PRODUCT GROEP EXTERIEUR&nbsp;</span>",
-          "caption2": "Overkappingen, glaskunst, grafmonumenten, maar ook gewoon glazen klep- en draairamen, voorzetramen, gebogen glas.<br> We kunnen u hier proberen uitputtend te informeren.<br> Dat zal niet lukken, omdat glas voor de bouw een zo enorm breed spectrum aan toepassingen kent, verblijven wij met het credo: <br>“Probeer het gewoon eens met ons”.<br>",
+          "caption2": "Adviezen, produktie, distributie, uitvoering , service en garantie .<br>Zij streeft naar de hoogst betaalbare kwaliteit bij alle glas en wandproducten die zij voert.\n<br>Bij de keuzen die gemaakt worden bij basismaterialen, halffabricaten en outillage wordt nauwkeurig op de kwaliteit gelet, zodat het bedrijf met haar activiteiten een optimaal eindproduct of dienst kan garanderen.&nbsp;<br>",
           "title3": "Web Fonts",
           "subtitle3": "Google has a highly exhaustive list of fonts",
           "caption3": "Google has a highly exhaustive list of fonts compiled into its web font platform and Mobirise makes it easy for you to use them on your website easily and freely.",
@@ -4218,7 +4397,7 @@
               "border-color": "#cccccc !important"
             },
             ".card-subtitle": {
-              "color": "#c0a375",
+              "color": "#ffffff",
               "font-family": "'Roboto', sans-serif",
               "googleLink": "https://fonts.googleapis.com/css?family=Roboto:400,300,700",
               "font-size": "20px"
@@ -4233,131 +4412,9 @@
               "font-family": "'Roboto', sans-serif",
               "googleLink": "https://fonts.googleapis.com/css?family=Roboto:400,300,700",
               "font-size": "30px"
-            },
-            ".card-subtitle SPAN": {
-              "font-size": "24px"
             }
           },
           "_anchor": "extFeatures3-3w"
-        },
-        {
-          "_params": {
-            "showImages": true,
-            "showTitles": false,
-            "showSubtitles": false,
-            "ShowTexts": false,
-            "showButtons": false,
-            "columnsColor": "#000000",
-            "paddingTop": 2,
-            "paddingBottom": 2,
-            "columns": 4,
-            "bgImageRadio": false,
-            "bgImage": "@THEME_PATH@/components/_images/jumbotron.jpg",
-            "parallax": true,
-            "bgColorRadio": true,
-            "bgColor": "#000000",
-            "bgVideoRadio": false,
-            "bgVideo": {
-              "url": "https://www.youtube.com/watch?v=uNCr7NdOJgw"
-            },
-            "overlay": false,
-            "overlayColor": "#222",
-            "overlayOpacity": 0.5
-          },
-          "media1": {
-            "image": {
-              "src": "@PROJECT_PATH@/assets/images/house-4019638-1920-600x400.jpeg",
-              "class": "card-img-top",
-              "width": 600,
-              "active": true,
-              "link": "",
-              "alt": "",
-              "title": ""
-            }
-          },
-          "media2": {
-            "image": {
-              "src": "@PROJECT_PATH@/assets/images/productie-opslag-glsa-600x450.jpeg",
-              "class": "card-img-top",
-              "width": 600,
-              "active": true,
-              "link": "",
-              "alt": "",
-              "title": ""
-            }
-          },
-          "media3": {
-            "image": {
-              "src": "@PROJECT_PATH@/assets/images/schermafdruk-bouw-1600-600x585.png",
-              "class": "card-img-top",
-              "width": 600,
-              "active": true,
-              "link": "",
-              "alt": "",
-              "title": ""
-            }
-          },
-          "media4": {
-            "image": {
-              "src": "@PROJECT_PATH@/assets/images/architecture-3355799-1920-800x600.jpeg",
-              "class": "card-img-top",
-              "width": 600,
-              "active": true,
-              "link": "",
-              "alt": "",
-              "title": ""
-            }
-          },
-          "media5": {
-            "image": {
-              "src": "@THEME_PATH@/components/_images/gallery/windows-books.jpg",
-              "class": "card-img-top",
-              "width": 600,
-              "active": true
-            }
-          },
-          "media6": {
-            "image": {
-              "src": "@THEME_PATH@/components/_images/gallery/room-laptop.jpg",
-              "class": "card-img-top",
-              "width": 600,
-              "active": true
-            }
-          },
-          "title1": "Bootstrap 4",
-          "subtitle1": "Bootstrap 4 has been noted",
-          "caption1": "Bootstrap 4 has been noted as one of the most reliable and proven frameworks and Mobirise has been equipped to develop websites using this framework.",
-          "title2": "Responsive",
-          "subtitle2": "One of Bootstrap 4's big points",
-          "caption2": "One of Bootstrap 4's big points is responsiveness and Mobirise makes effective use of this by generating highly responsive website for you.",
-          "title3": "Web Fonts",
-          "subtitle3": "Google has a highly exhaustive list of fonts",
-          "caption3": "Google has a highly exhaustive list of fonts compiled into its web font platform and Mobirise makes it easy for you to use them on your website easily and freely.",
-          "title4": "Unlimited Sites",
-          "subtitle4": "Mobirise gives you the freedom to develop",
-          "caption4": "Mobirise gives you the freedom to develop as many websites as you like given the fact that it is a desktop app.",
-          "title5": "Trendy Website Blocks",
-          "subtitle5": "Choose from the large selection of blocks",
-          "caption5": "Choose from the large selection of latest pre-made blocks - jumbotrons, hero images, parallax scrolling, video backgrounds, hamburger menu, sticky header and more.",
-          "title6": "Host Anywhere",
-          "subtitle6": "Don't limit yourself to just one platform",
-          "caption6": "Publish your website to a local drive, FTP or host on Amazon S3, Google Drive, Github. Don't limit yourself to just one platform or service provider.",
-          "button1": "<a data-app-btn=\"true\" href=\"https://mobirise.com\" class=\"btn btn-primary\">MORE</a>",
-          "button2": "<a data-app-btn=\"true\" href=\"https://mobirise.com\" class=\"btn btn-primary\">MORE</a>",
-          "button3": "<a data-app-btn=\"true\" href=\"https://mobirise.com\" class=\"btn btn-primary\">MORE</a>",
-          "button4": "<a data-app-btn=\"true\" href=\"https://mobirise.com\" class=\"btn btn-primary\">MORE</a>",
-          "button5": "<a data-app-btn=\"true\" href=\"https://mobirise.com\" class=\"btn btn-primary\">MORE</a>",
-          "button6": "<a data-app-btn=\"true\" href=\"https://mobirise.com\" class=\"btn btn-primary\">MORE</a>",
-          "_tags": [
-            "Theme"
-          ],
-          "_name": "features1",
-          "_styles": {
-            ".striped .mbr-cards-col:nth-child(2n+1)": {
-              "background-color": "#000000"
-            }
-          },
-          "_anchor": "features1-5l"
         },
         {
           "_params": {
@@ -4420,11 +4477,11 @@
                 "showTitle": true,
                 "playVideo": false,
                 "videoUrl": "https://www.youtube.com/watch?v=uNCr7NdOJgw",
-                "title": "<span style=\"font-weight: normal;\">GLAS &amp; WAND GLASTECHNOLOGIE&nbsp;</span>",
+                "title": "<span style=",
                 "overlay": true,
                 "contentAlign": "right",
                 "text": "Choose from the large selection of latest pre-made blocks - jumbotrons, hero images, parallax scrolling, video backgrounds, hamburger menu, sticky header and more.",
-                "buttons": " <a data-app-btn=\"true\" class=\"btn btn-lg btn-primary-outline btn-primary\" href=\"https://myalbum.com/album/qxGyJ7qGWk7k\" data-toolbar=\"-mbrBtnMove\">MOGEN WE EVEN AAN U VOORSTELLEN VITRI - VINCI&nbsp;</a>",
+                "buttons": " <a data-app-btn=\"true\" class=\"btn btn-lg btn-white btn-white-outline\" href=\"https://myalbum.com/album/qxGyJ7qGWk7k\" data-toolbar=\"-mbrBtnMove\">BEKIJK ONZE INTRODUCTIE&nbsp;</a>",
                 "alt": ""
               },
               {
@@ -4457,8 +4514,7 @@
             },
             ".btn": {
               "font-family": "'Roboto', sans-serif",
-              "googleLink": "https://fonts.googleapis.com/css?family=Roboto:400,300,700",
-              "font-size": "24px"
+              "googleLink": "https://fonts.googleapis.com/css?family=Roboto:400,300,700"
             }
           },
           "_anchor": "slider-46"
@@ -4474,7 +4530,7 @@
             "filterBgColor": false,
             "bgColor": "#000000",
             "showText": false,
-            "filter": false,
+            "filter": true,
             "images": [
               {
                 "tags": "ENKELGLAS ",
@@ -4569,9 +4625,9 @@
             "overlayOpacity": 0.1
           },
           "title": "<span style=\"font-weight: normal;\">GLAS &amp; WAND </span>&nbsp;",
-          "title2": "UW ONAFHANKELIJK&nbsp;<br>PARTNER IN GLAS KENNIS&nbsp;<br>",
-          "text": "<br><br>Kenniscentrum Glas is dé dienstverlener voor bedrijven in de glasbranche en aanverwante bedrijven maar ook voor bouw- en aannemingsbedrijven, timmerfabrieken, constructeurs, gevelbouwers, architecten, handhavers/gemeenten etc. <br>Kortom voor alle branches, bedrijven en beroepsgroepen die – direct of indirect – met vlakglas te maken hebben.",
-          "buttons": "<a data-app-btn=\"true\" class=\"btn btn-primary\" href=\"https://www.kenniscentrumglas.nl\" data-toolbar=\"-mbrBtnMove\">KENNISCENTRUM VOOR GLAS &amp; WAND&nbsp;<br><br></a>",
+          "title2": "UW ONAFHANKELIJK&nbsp;<br>PARTNER IN GLASKENNIS&nbsp;<br>",
+          "text": "<br><br>Kenniscentrum Glas is dé dienstverlener voor bedrijven in de glasbranche en aanverwante bedrijven maar ook voor bouw- en aannemingsbedrijven, timmerfabrieken, constructeurs, gevelbouwers, architecten, handhavers/gemeenten etc. Kortom voor alle branches, bedrijven en beroepsgroepen die – direct of indirect – met vlakglas te maken hebben.",
+          "buttons": "<a data-app-btn=\"true\" class=\"btn btn-primary\" href=\"https://www.kenniscentrumglas.nl\" data-toolbar=\"-mbrBtnMove\">KENNISCENTRUM VOOR GLAS<br><br></a>",
           "media": {
             "image": {
               "active": true,
@@ -4605,11 +4661,6 @@
               "font-family": "'Roboto', sans-serif",
               "googleLink": "https://fonts.googleapis.com/css?family=Roboto:400,300,700",
               "font-size": "46px"
-            },
-            ".btn": {
-              "font-family": "'Roboto', sans-serif",
-              "googleLink": "https://fonts.googleapis.com/css?family=Roboto:400,300,700",
-              "font-size": "18px"
             }
           },
           "_anchor": "extMsg-box3-45"
@@ -4627,8 +4678,7 @@
             },
             ".mbr-section-subtitle SPAN": {
               "font-family": "'Roboto', sans-serif",
-              "googleLink": "https://fonts.googleapis.com/css?family=Roboto:400,300,700",
-              "font-size": "24px"
+              "googleLink": "https://fonts.googleapis.com/css?family=Roboto:400,300,700"
             }
           },
           "_params": {
@@ -4651,8 +4701,8 @@
             "overlayColor": "#222",
             "overlayOpacity": 0.5
           },
-          "title": "<span style=\"font-weight: normal;\">GLAS &amp; WAND EXTERIEUR &nbsp;</span>",
-          "text": "<span style=\"font-style: normal;\">INSPIRATIE, AMBITIE EN PASSIE VOOR GLAS EN WAND&nbsp;</span>",
+          "title": "<span style=\"font-weight: normal;\">GLAS &amp; WAND &nbsp;EX TERIEUR &nbsp;</span>",
+          "text": "<span style=\"font-style: normal;\">Cut down the development time with drag-and-drop website builder.</span>",
           "button": "<a data-app-btn=\"true\" class=\"btn btn-primary\" href=\"https://mobirise.com\">VIEW VIDEO TUTORIAL</a>",
           "_tags": [
             "Theme"
@@ -4686,7 +4736,7 @@
             "overlayOpacity": 0.5
           },
           "text": "FOLLOW US",
-          "icons": " <a data-app-btn=\"true\" class=\"btn btn-social\" title=\"Facebook\" target=\"_blank\" href=\"https://www.facebook.com/pages/Mobirise/1616226671953247\" data-toolbar=\"-mbrBtnAdd,-mbrBtnMove,-mbrFonts,-mbrFontSize,-mbrBtnColor\"><i class=\"socicon socicon-facebook\"></i></a>         ",
+          "icons": " <a data-app-btn=\"true\" class=\"btn btn-social\" title=\"Facebook\" target=\"_blank\" href=\"https://www.facebook.com/pages/Mobirise/1616226671953247\" data-toolbar=\"-mbrBtnAdd,-mbrBtnMove,-mbrFonts,-mbrFontSize,-mbrBtnColor\"><i class=\"socicon socicon-facebook\"></i></a>   <a data-app-btn=\"true\" class=\"btn btn-social\" title=\"Instagram\" target=\"_blank\" href=\"https://instagram.com/mobirise/\" data-toolbar=\"-mbrBtnAdd,-mbrBtnMove,-mbrFonts,-mbrFontSize,-mbrBtnColor\"><i class=\"socicon socicon-instagram\"></i></a> <a data-app-btn=\"true\" class=\"btn btn-social\" title=\"Pinterest\" target=\"_blank\" href=\"https://www.pinterest.com/mobirise/\" data-toolbar=\"-mbrBtnAdd,-mbrBtnMove,-mbrFonts,-mbrFontSize,-mbrBtnColor\"><i class=\"socicon socicon-pinterest\"></i></a>     ",
           "_tags": [
             "Theme"
           ],
@@ -4707,8 +4757,8 @@
             "overlayOpacity": 0.8
           },
           "buttons": "<a data-app-btn=\"true\" type=\"submit\" class=\"btn btn-sm btn-primary\" data-toolbar=\"-mbrLink,-mbrBtnAdd,-mbrBtnMove,-mbrBtnRemove\">Contact us</a>",
-          "text1": "<font color=\"#7c7c7c\" face=\"Montserrat, sans-serif\"><span style=\"font-size: 16px; letter-spacing: -1px;\"><b>GLAS &amp; WAND&nbsp;</b></span></font><br>Kopersteden 21&nbsp;<br>7547 TJ Enschede<br><br><br>\n<strong>Contacts</strong><br>\nEmail: info@glasenwand.nl&nbsp;<br>telefoon ; 053 -5721030&nbsp;<br>Mobiel ; &nbsp; &nbsp;06 53 772 934&nbsp;<br><br>Website : www.glasenwand.nl&nbsp;",
-          "text2": "<p class=\"mbr-contacts__text\"><strong>Links</strong></p><ul class=\"mbr-contacts__list\"><li>HOME&nbsp;</li><li>I<a href=\"page1.html\">NTERIEUR&nbsp;</a></li><li><a href=\"page 1.html\">EXTERIEUR&nbsp;</a></li><li><a href=\"page5.html\">GLASS &amp; WALL&nbsp;</a></li><li><a href=\"page4.html\">CONTAC</a>T&nbsp;</li></ul>",
+          "text1": "<strong>Address</strong><br>\n1234 Street Name<br>\nCity, AA 99999<br><br><br>\n<strong>Contacts</strong><br>\nEmail: support@mobirise.com<br>\nPhone: +1 (0) 000 0000 001<br>\nFax: +1 (0) 000 0000 002",
+          "text2": "<p class=\"mbr-contacts__text\"><strong>Links</strong></p><ul class=\"mbr-contacts__list\"><li><a class=\"text-white\" href=\"https://mobirise.com/\">Website builder</a></li><li><a class=\"text-white\" href=\"https://mobirise.com/mobirise-free-win.zip\">Download for Windows</a></li><li><a class=\"text-white\" href=\"https://mobirise.com/mobirise-free-mac.zip\">Download for Mac</a></li></ul>",
           "form": {
             "title": "MESSAGE",
             "action": "raymondterhuurne@gmail.com",
@@ -4744,856 +4794,14 @@
           "_anchor": "contacts4-1p",
           "_styles": {
             ".mbr-contacts p": {
-              "color": "#c0a375"
+              "color": "#ffffff"
             },
             ".btn": {
               "font-size": "18px",
               "font-family": "'Roboto', sans-serif",
               "googleLink": "https://fonts.googleapis.com/css?family=Roboto:400,300,700"
-            },
-            ".mbr-contacts__text": {
-              "color": "#c0a375"
-            },
-            ".mbr-contacts__text UL": {
-              "font-family": "'Roboto', sans-serif",
-              "googleLink": "https://fonts.googleapis.com/css?family=Roboto:400,300,700",
-              "font-size": "16px"
             }
           }
-        }
-      ]
-    },
-    "page5.html": {
-      "settings": {
-        "meta_descr": "Web Page Generator Description",
-        "title": "GLASS & WALL SYTEMS B2B",
-        "order": 4
-      },
-      "components": [
-        {
-          "_inherit": "menu",
-          "_params": {
-            "logo": true,
-            "showBrand": false,
-            "hideButtons": false,
-            "sticky": true,
-            "collapsed": true,
-            "transparent": false,
-            "bgColor": "#000000",
-            "fontSize": "1.7",
-            "fontName": {
-              "name": "Roboto Condensed",
-              "url": "https://fonts.googleapis.com/css?family=Roboto+Condensed:400,300,700",
-              "css": "'Roboto Condensed', sans-serif"
-            },
-            "fontColor": "#ffffff",
-            "fontHoverColor": "@primaryColor"
-          },
-          "items": "<li class=\"nav-item dropdown open\"><a data-app-btn=\"true\" class=\"nav-link link dropdown-toggle\" href=\"page4.html\" data-toggle=\"dropdown-submenu\" aria-expanded=\"true\">HOME&nbsp;</a><div class=\"dropdown-menu\"><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"https://mobirise.com/\"></a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"https://mobirise.com/\"></a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"https://mobirise.com/\">&nbsp;</a></div></li><li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"https://mobirise.com/\" aria-expanded=\"false\">INTERIEUR &nbsp;</a></li><li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"page4.html\" aria-expanded=\"false\">EXTERIEUR&nbsp;</a></li><li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"page4.html\" aria-expanded=\"false\">GLASS &amp; WALL</a></li><li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"https://mobirise.com/\">CONTACT&nbsp;</a></li><li class=\"nav-item nav-btn\"><a data-app-btn=\"true\" data-button=\"\" data-app-selector=\".btn\" class=\"nav-link btn btn-primary-outline btn-primary\" href=\"https://youtu.be/ZjwijA4UA2A\">BEKIJK ONZE &nbsp;BEDRIJFSFILM&nbsp;</a></li><li class=\"nav-item nav-btn\"><a data-app-btn=\"true\" data-button=\"\" data-app-selector=\".btn\" class=\"nav-link btn btn-primary-outline btn-primary\" href=\"assets/files/INTRODUCTIE-VITRI-VINCI.pdf\">VITRI - VINCI LOOKBOOK&nbsp;</a></li>",
-          "_tags": [
-            "Theme"
-          ],
-          "_styles": {
-            ".hide-buttons .nav-btn": {
-              "display": "none !important"
-            },
-            ".navbar-caption": {
-              "color": "#ffffff",
-              "font-size": "20px"
-            },
-            ".navbar-toggler": {
-              "color": "#ffffff"
-            },
-            ".close-icon::before, .close-icon::after": {
-              "background-color": "#ffffff"
-            },
-            ".link, .dropdown-item": {
-              "color": "#ffffff",
-              "googleLink": "https://fonts.googleapis.com/css?family=Roboto+Condensed:400,300,700",
-              "font-family": "'Roboto Condensed', sans-serif"
-            },
-            ".link": {
-              "font-size": "1.7rem"
-            },
-            ".dropdown-item, .nav-dropdown-sm .link": {
-              "font-size": "1.841rem"
-            },
-            ".link:hover, .dropdown-item:hover, .link:focus, .dropdown-item:focus": {
-              "color": "@primaryColor"
-            },
-            ".link[aria-expanded=\"true\"], .dropdown-menu": {
-              "background": "#000000"
-            },
-            ".nav-dropdown-sm .link:focus, .nav-dropdown-sm .link:hover, .nav-dropdown-sm .dropdown-item:focus, .nav-dropdown-sm .dropdown-item:hover": {
-              "background": "#000000!important"
-            },
-            ".navbar, .nav-dropdown-sm, .nav-dropdown-sm .link[aria-expanded=\"true\"], .nav-dropdown-sm .dropdown-menu": {
-              "background": "#000000"
-            },
-            ".bg-color.transparent .link": {
-              "color": "#ffffff",
-              "transition": "none"
-            },
-            ".bg-color.transparent.opened .link": {
-              "transition": "color .2s ease-in-out"
-            },
-            ".bg-color.transparent.opened .link:hover, .bg-color.transparent.opened .link:focus": {
-              "color": "@primaryColor"
-            },
-            ".link[aria-expanded=\"true\"], .dropdown-item[aria-expanded=\"true\"]": {
-              "color": "#c0a375!important"
-            },
-            "A": {
-              "font-size": "8px",
-              "font-family": "'Roboto', sans-serif",
-              "googleLink": "https://fonts.googleapis.com/css?family=Roboto:400,300,700"
-            },
-            ".btn": {
-              "font-family": "'Roboto', sans-serif",
-              "googleLink": "https://fonts.googleapis.com/css?family=Roboto:400,300,700",
-              "font-size": "20px"
-            }
-          },
-          "logo": {
-            "image": {
-              "src": "@PROJECT_PATH@/assets/images/logo-glas-en-wand-526x128.png",
-              "height": 128,
-              "alt": "Mobirise",
-              "link": "page4.html",
-              "title": "",
-              "linkInNewWindow": false,
-              "active": true
-            },
-            "iconFont": {
-              "class": "mbr-iconfont mbr-iconfont-menu",
-              "link": "https://mobirise.com",
-              "size": 0,
-              "linkInNewWindow": false,
-              "name": "home",
-              "family": "MobiriseIcons",
-              "active": true
-            }
-          },
-          "brand": "<a class=\"navbar-caption\" data-app-btn=\"true\" data-app-selector=\".navbar-caption\" href=\"https://mobirise.com\" data-app-placeholder=\"Type Brand Name\" data-toolbar=\"-mbrBtnMove,-mbrBtnAdd,-mbrBtnRemove,mbrColor\">GLAS 7WAND&nbsp;</a>",
-          "_name": "ext.menu",
-          "_anchor": "ext_menu-5n"
-        },
-        {
-          "_params": {
-            "autoplay": true,
-            "fullScreen": true,
-            "paddingTop": 3,
-            "paddingBottom": 3,
-            "showBullets": true,
-            "bgColor": "#fff",
-            "timeout": "3",
-            "slides": [
-              {
-                "image": "@PROJECT_PATH@/assets/images/img-45-2000x15001.jpeg",
-                "active": false,
-                "showButtons": false,
-                "showText": false,
-                "showTitle": true,
-                "playVideo": false,
-                "videoUrl": "https://www.youtube.com/watch?v=uNCr7NdOJgw",
-                "title": "<span style=\"font-weight: normal;\">&nbsp;GLASS &amp; WALL SYSTEMS</span><br><br><span style=\"font-weight: normal;\">&nbsp;</span>",
-                "overlay": true,
-                "contentAlign": "center",
-                "text": "<span style=\"font-style: normal;\">MASTEROF ELEGANCE AND</span><br><span style=\"font-style: normal;\"> TIMELESS DESIGNS&nbsp;</span>",
-                "buttons": " <a data-app-btn=\"true\" class=\"btn btn-lg btn-white btn-white-outline\" href=\"https://myalbum.com/album/o3x5MteghViC\" data-toolbar=\"-mbrBtnMove\">BEKIJK ONZE BERIJFS BROCHURE&nbsp;</a>",
-                "alt": ""
-              },
-              {
-                "image": "@PROJECT_PATH@/assets/images/1600-save-vv-1600x1200.jpg",
-                "active": true,
-                "showButtons": false,
-                "showText": false,
-                "showTitle": false,
-                "playVideo": false,
-                "videoUrl": "https://www.youtube.com/watch?v=uNCr7NdOJgw",
-                "title": "<span style=\"font-weight: normal;\">&nbsp;</span>",
-                "overlay": true,
-                "contentAlign": "center",
-                "text": "Fullscreen slider with breath-taking pan & zoom also known as \"KenBurns\" effect and parallax transition between slides.",
-                "buttons": " <a data-app-btn=\"true\" class=\"btn btn-lg btn-white btn-white-outline\" href=\"https://myalbum.com/album/o3x5MteghViC\" data-toolbar=\"-mbrBtnMove\">BEKIJK ONZE BERIJFS BROCHURE&nbsp;</a>",
-                "alt": ""
-              }
-            ]
-          },
-          "articleLayout": false,
-          "alias": "mobirise3-blocks/components",
-          "_tags": [
-            "Extension"
-          ],
-          "_name": "extSlider1",
-          "_styles": {
-            "SPAN": {
-              "font-family": "'Roboto', sans-serif",
-              "googleLink": "https://fonts.googleapis.com/css?family=Roboto:400,300,700",
-              "font-size": "60px"
-            },
-            "H2": {
-              "text-align": "left"
-            },
-            "P": {
-              "text-align": "left"
-            }
-          },
-          "_anchor": "extSlider1-5p"
-        },
-        {
-          "_inherit": "msg-box8",
-          "_styles": {
-            ".mbr-section-title, .lead": {
-              "color": "#000"
-            },
-            ".mbr-section-title": {
-              "color": "#c0a375",
-              "text-align": "left"
-            },
-            ".lead": {
-              "color": "#ffffff"
-            },
-            ".lead DIV": {
-              "text-align": "left",
-              "font-family": "'Roboto', sans-serif",
-              "googleLink": "https://fonts.googleapis.com/css?family=Roboto:400,300,700"
-            }
-          },
-          "_params": {
-            "showTitle": true,
-            "showText": true,
-            "showButton": true,
-            "paddingTop": "2",
-            "paddingBottom": "2",
-            "bgImageRadio": false,
-            "bgImage": "@THEME_PATH@/components/_images/desert.jpg",
-            "parallax": true,
-            "bgColorRadio": true,
-            "bgColor": "#000000",
-            "bgVideoRadio": false,
-            "bgVideo": {
-              "url": "https://www.youtube.com/watch?v=uNCr7NdOJgw"
-            },
-            "overlay": false,
-            "overlayColor": "#222",
-            "overlayOpacity": 0.5
-          },
-          "title": "<span style=\"font-weight: normal;\">OVER GLASS &amp; WALL SYSTEMS &nbsp;</span><br><span style=\"font-weight: normal;\"><br></span>",
-          "text": "<div><span style=\"font-size: 1.07rem;\">INSPIRED BY AMBITION</span><br></div><div>Een inspirerende werkomgeving creëren waar u energie van krijgt?</div><div> Of een kantoor transformeren tot een rustige werkplek om gefocust te kunnen werken?</div><div>Het open karakter en de transparante werkwijze: dat is wat het interieur mag uitdragen door het minimalistische design.</div><div><span style=\"font-size: 1.07rem;\">GLASS &amp; WALL SYTEMS &nbsp;Bij GLAS &amp; WAND &nbsp;geven we elke ambitie de ruimte.</span></div>",
-          "_tags": [
-            "Theme"
-          ],
-          "button": "<a data-app-btn=\"true\" class=\"btn btn-primary\" href=\"https://myalbum.com/album/K4HHor3B9thh\" data-toolbar=\"-mbrBtnMove\">BEKIJK ONZE INSPIRATIE BROCHURE GLASS &amp; WALL SYTEMS&nbsp;</a>",
-          "_name": "msg-box3",
-          "_anchor": "msg-box3-5t"
-        },
-        {
-          "_params": {
-            "showImages": false,
-            "showTitles": true,
-            "showSubtitles": true,
-            "ShowTexts": true,
-            "showButtons": false,
-            "iconsBgColor": "#cccccc",
-            "paddingTop": "3",
-            "paddingBottom": "4",
-            "columns": "2",
-            "bgImageRadio": false,
-            "bgImage": "@PROJECT_PATH@/assets/images/14468434_1875659585982696_3317006824705473118_o-2000x1484.jpeg",
-            "parallax": true,
-            "bgColorRadio": true,
-            "bgColor": "#000000",
-            "bgVideoRadio": false,
-            "bgVideo": {
-              "url": "https://www.youtube.com/watch?v=uNCr7NdOJgw"
-            },
-            "overlay": false,
-            "overlayColor": "#222",
-            "overlayOpacity": 0.8
-          },
-          "media1": {
-            "iconFont": {
-              "active": true,
-              "class": "mbr-iconfont mbr-iconfont-features4",
-              "name": "phone",
-              "link": "https://mobirise.com",
-              "size": 0,
-              "color": "#c39f76",
-              "family": "et-line"
-            }
-          },
-          "media2": {
-            "iconFont": {
-              "active": true,
-              "class": "mbr-iconfont mbr-iconfont-features4",
-              "name": "edit",
-              "link": "https://mobirise.com",
-              "size": 0,
-              "color": "#c39f76",
-              "family": "et-line"
-            }
-          },
-          "media3": {
-            "iconFont": {
-              "active": true,
-              "class": "mbr-iconfont mbr-iconfont-features4",
-              "name": "briefcase",
-              "link": "https://mobirise.com",
-              "size": 0,
-              "color": "#c39f76",
-              "family": "et-line"
-            }
-          },
-          "media4": {
-            "iconFont": {
-              "active": true,
-              "class": "mbr-iconfont mbr-iconfont-features4",
-              "name": "linegraph",
-              "link": "https://mobirise.com",
-              "size": 0,
-              "color": "#c39f76",
-              "family": "et-line"
-            }
-          },
-          "title1": "GLASS &nbsp;&amp; WALL SYSTEMS &nbsp;",
-          "subtitle1": "<span style=\"font-style: normal;\">UNIQUE GLASS DESIGN &nbsp;&nbsp;</span>&nbsp;",
-          "caption1": "&nbsp;<br>De tijdloze schoonheid van verborgen perfectie.<br> Vanuit deze waarde creëren de vakmensen van GLAS &amp; WAND een GLASS &amp; WALL SYSTEMS &nbsp;van de hoogste kwaliteit <br>Met een passie voor het perfectioneren van iets wat bijna onzichtbaar is.<br>",
-          "title2": "GLAS S &nbsp;&amp; WALL &nbsp;SYTEMS &nbsp;",
-          "subtitle2": "<span style=\"font-style: normal;\">IMAGE A WORLD WITH INNOVATIONS&nbsp;</span>",
-          "caption2": "We zorgen ervoor dat u een aangenaam werkklimaat heeft en de sfeer, beleving en verbinding voelbaar is: van mens tot mens in een ruimte die samenbrengt. Designed to connect.Kantoortuinen zijn langzaam uit de mode en veel veiliger.<br> Mensen willen graag gezond in rustige afgescheiden ruimten werken. <br>Transparantie wordt echter enorm gewaardeerd.<br>Hier bent u natuurlijk aan het juiste adres,bij Glas&amp;Wand.<br>",
-          "title3": "Web Fonts",
-          "subtitle3": "Google has a highly exhaustive list of fonts",
-          "caption3": "Google has a highly exhaustive list of fonts compiled into its web font platform and Mobirise makes it easy for you to use them on your website easily and freely.",
-          "title4": "Unlimited Sites",
-          "subtitle4": "Mobirise gives you the freedom to develop",
-          "caption4": "Mobirise gives you the freedom to develop as many websites as you like given the fact that it is a desktop app.",
-          "button1": "<a data-app-btn=\"true\" href=\"https://mobirise.com\" class=\"btn btn-primary\">MORE</a>",
-          "button2": "<a data-app-btn=\"true\" href=\"https://mobirise.com\" class=\"btn btn-primary\">MORE</a>",
-          "button3": "<a data-app-btn=\"true\" href=\"https://mobirise.com\" class=\"btn btn-primary\">MORE</a>",
-          "button4": "<a data-app-btn=\"true\" href=\"https://mobirise.com\" class=\"btn btn-primary\">MORE</a>",
-          "alias": "mobirise3-blocks/components",
-          "_tags": [
-            "Extension"
-          ],
-          "_name": "extFeatures3",
-          "_styles": {
-            ".mbr-iconfont-features4": {
-              "color": "#cccccc !important"
-            },
-            ".wraper": {
-              "border-color": "#cccccc !important"
-            },
-            ".card-subtitle": {
-              "color": "#c0a375",
-              "font-family": "'Roboto', sans-serif",
-              "googleLink": "https://fonts.googleapis.com/css?family=Roboto:400,300,700",
-              "font-size": "20px"
-            },
-            "P": {
-              "text-align": "left",
-              "font-family": "'Roboto', sans-serif",
-              "googleLink": "https://fonts.googleapis.com/css?family=Roboto:400,300,700",
-              "font-size": "18px"
-            },
-            "H4": {
-              "font-family": "'Roboto', sans-serif",
-              "googleLink": "https://fonts.googleapis.com/css?family=Roboto:400,300,700",
-              "font-size": "30px"
-            },
-            ".card-subtitle SPAN": {
-              "font-size": "25px"
-            }
-          },
-          "_anchor": "extFeatures3-5y"
-        },
-        {
-          "_params": {
-            "showTitle": true,
-            "showText": false,
-            "showButtons": false,
-            "showArrow": true,
-            "animText1": "DESIGN TO CONECT ",
-            "animText2": "CREEËR VERBINDING MET ",
-            "animText3": "UITLOPENDE RUIMTES",
-            "typeSpeed": "20",
-            "bgImageRadio": true,
-            "bgImage": "@PROJECT_PATH@/assets/images/i-wallspace00016-2000x1500.jpg",
-            "parallax": true,
-            "bgColorRadio": false,
-            "bgColor": "#2e2e2e",
-            "bgVideoRadio": false,
-            "bgVideo": {
-              "url": "https://www.youtube.com/watch?v=uNCr7NdOJgw"
-            },
-            "overlay": false,
-            "overlayColor": "#000",
-            "overlayOpacity": "0.2"
-          },
-          "title": "<span style=\"font-weight: normal;\">GLAS S &amp; WALL SYTEMS &nbsp;&nbsp;</span><br><br>",
-          "text": "Full-screen intro with \"typed\" text effect. Enter in any string, and watch it type at the speed you have set, backspace what it is typed, and begin a new string. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Vel sunt, neque voluptatibus excepturi laboriosam possimus adipisci quidem dolores omnis, nemo dolore eligendi blanditiis voluptatem in, doloribus hic aperiam maiores fugit.",
-          "buttons": "<a data-app-btn=\"true\" class=\"btn btn-primary\" href=\"https://mobirise.com\">GET FREE TRIAL</a>",
-          "alias": "mobirise3-blocks/components",
-          "_tags": [
-            "Extension"
-          ],
-          "_name": "extHeader11",
-          "_styles": {
-            "SPAN": {
-              "font-family": "'Roboto', sans-serif",
-              "googleLink": "https://fonts.googleapis.com/css?family=Roboto:400,300,700"
-            }
-          },
-          "_anchor": "extHeader11-5s"
-        },
-        {
-          "_params": {
-            "showImages": false,
-            "showTitles": true,
-            "showSubtitles": true,
-            "ShowTexts": true,
-            "showButtons": false,
-            "iconsBgColor": "#cccccc",
-            "paddingTop": "3",
-            "paddingBottom": "4",
-            "columns": "2",
-            "bgImageRadio": false,
-            "bgImage": "file:///Users/raymondterhuurne/Library/Application%20Support/Mobirise.com/Mobirise/projects/project-2020-03-30_143615/assets/images/14468434_1875659585982696_3317006824705473118_o-2000x1484.jpeg",
-            "parallax": true,
-            "bgColorRadio": true,
-            "bgColor": "#000000",
-            "bgVideoRadio": false,
-            "bgVideo": {
-              "url": "https://www.youtube.com/watch?v=uNCr7NdOJgw"
-            },
-            "overlay": false,
-            "overlayColor": "#222",
-            "overlayOpacity": 0.8
-          },
-          "media1": {
-            "iconFont": {
-              "active": true,
-              "class": "mbr-iconfont mbr-iconfont-features4",
-              "name": "phone",
-              "link": "https://mobirise.com",
-              "size": 0,
-              "color": "#c39f76",
-              "family": "et-line"
-            }
-          },
-          "media2": {
-            "iconFont": {
-              "active": true,
-              "class": "mbr-iconfont mbr-iconfont-features4",
-              "name": "edit",
-              "link": "https://mobirise.com",
-              "size": 0,
-              "color": "#c39f76",
-              "family": "et-line"
-            }
-          },
-          "media3": {
-            "iconFont": {
-              "active": true,
-              "class": "mbr-iconfont mbr-iconfont-features4",
-              "name": "briefcase",
-              "link": "https://mobirise.com",
-              "size": 0,
-              "color": "#c39f76",
-              "family": "et-line"
-            }
-          },
-          "media4": {
-            "iconFont": {
-              "active": true,
-              "class": "mbr-iconfont mbr-iconfont-features4",
-              "name": "linegraph",
-              "link": "https://mobirise.com",
-              "size": 0,
-              "color": "#c39f76",
-              "family": "et-line"
-            }
-          },
-          "title1": "GLAS S &amp; WALL SYSTEMS&nbsp;",
-          "subtitle1": "<span style=\"font-style: normal;\">TOGETHER WE CREATE THE BEST WALL SOLUTIONS&nbsp;</span>",
-          "caption1": "&nbsp;<br>Sfeer creëren en ruimtens vormgeven. \n<br>Het fascienerende product glas geeft een nieuwe dimensie aande inrichting van uw kantoor of showroom.<br> Glas maakt het uitzonderlijke mogelijk verschillende ruimten worden op een transparante wijze van elkaar gescheiden.&nbsp;<br>",
-          "title2": "GLASS &amp; WALL SYTEMS &nbsp;",
-          "subtitle2": "<span style=\"font-style: normal;\">&nbsp;DESIGNED TO CONNECT&nbsp;</span>",
-          "caption2": "We zorgen ervoor dat u een aangenaam werkklimaat heeft en de sfeer, beleving en verbinding voelbaar is: <br>van mens tot mens in een ruimte die samenbrengt. <br>Designed to connect.<br>",
-          "title3": "Web Fonts",
-          "subtitle3": "Google has a highly exhaustive list of fonts",
-          "caption3": "Google has a highly exhaustive list of fonts compiled into its web font platform and Mobirise makes it easy for you to use them on your website easily and freely.",
-          "title4": "Unlimited Sites",
-          "subtitle4": "Mobirise gives you the freedom to develop",
-          "caption4": "Mobirise gives you the freedom to develop as many websites as you like given the fact that it is a desktop app.",
-          "button1": "<a data-app-btn=\"true\" href=\"https://mobirise.com\" class=\"btn btn-primary\">MORE</a>",
-          "button2": "<a data-app-btn=\"true\" href=\"https://mobirise.com\" class=\"btn btn-primary\">MORE</a>",
-          "button3": "<a data-app-btn=\"true\" href=\"https://mobirise.com\" class=\"btn btn-primary\">MORE</a>",
-          "button4": "<a data-app-btn=\"true\" href=\"https://mobirise.com\" class=\"btn btn-primary\">MORE</a>",
-          "alias": "mobirise3-blocks/components",
-          "_tags": [
-            "Extension"
-          ],
-          "_name": "extFeatures3",
-          "_styles": {
-            ".mbr-iconfont-features4": {
-              "color": "#cccccc !important"
-            },
-            ".wraper": {
-              "border-color": "#cccccc !important"
-            },
-            ".card-subtitle": {
-              "color": "#c0a375",
-              "font-family": "'Roboto', sans-serif",
-              "googleLink": "https://fonts.googleapis.com/css?family=Roboto:400,300,700",
-              "font-size": "20px"
-            },
-            "P": {
-              "text-align": "left",
-              "font-family": "'Roboto', sans-serif",
-              "googleLink": "https://fonts.googleapis.com/css?family=Roboto:400,300,700",
-              "font-size": "18px"
-            },
-            "H4": {
-              "font-family": "'Roboto', sans-serif",
-              "googleLink": "https://fonts.googleapis.com/css?family=Roboto:400,300,700",
-              "font-size": "30px"
-            },
-            ".card-subtitle SPAN": {
-              "font-size": "25px"
-            }
-          },
-          "_anchor": "extFeatures3-5x"
-        },
-        {
-          "_params": {
-            "showBullets": false,
-            "fullWidth": false,
-            "spacing": "5",
-            "paddingTop": "4",
-            "paddingBottom": "0",
-            "filterBgColor": false,
-            "bgColor": "#000000",
-            "showText": false,
-            "filter": false,
-            "images": [
-              {
-                "tags": "Responsive",
-                "videoPreview": "@THEME_PATH@/components/_images/gallery/preview.jpg",
-                "playVideo": false,
-                "videoUrl": "https://www.youtube.com/watch?v=uNCr7NdOJgw",
-                "image": "@PROJECT_PATH@/assets/images/1600-wall-1600x1070.jpeg",
-                "thumb": "@PROJECT_PATH@/assets/images/1600-wall-1600x1070-800x535.jpeg",
-                "alt": "",
-                "title": "",
-                "caption": "GLAS &amp; WAND PRODUCTEN LIJN&nbsp;",
-                "active": false
-              },
-              {
-                "tags": "Responsive",
-                "videoPreview": "@THEME_PATH@/components/_images/gallery/preview.jpg",
-                "playVideo": false,
-                "videoUrl": "https://www.youtube.com/watch?v=uNCr7NdOJgw",
-                "image": "@PROJECT_PATH@/assets/images/1600-wall-2-2000x1333.jpg",
-                "thumb": "@PROJECT_PATH@/assets/images/1600-wall-2-2000x1333-800x533.jpg",
-                "alt": "",
-                "title": "",
-                "caption": "GLAS &amp; WAND PRODUCTEN LIJN&nbsp;",
-                "active": false
-              },
-              {
-                "tags": "Responsive",
-                "videoPreview": "@THEME_PATH@/components/_images/gallery/preview.jpg",
-                "playVideo": false,
-                "videoUrl": "https://www.youtube.com/watch?v=uNCr7NdOJgw",
-                "image": "@PROJECT_PATH@/assets/images/-mmf0540-2000x1335.jpg",
-                "thumb": "@PROJECT_PATH@/assets/images/mmf0540-2000x1335-800x534.jpg",
-                "alt": "",
-                "title": "",
-                "caption": "GLAS &amp; WAND PRODUCTEN LIJN&nbsp;",
-                "active": false
-              },
-              {
-                "tags": "Responsive",
-                "videoPreview": "@THEME_PATH@/components/_images/gallery/preview.jpg",
-                "playVideo": false,
-                "videoUrl": "https://www.youtube.com/watch?v=uNCr7NdOJgw",
-                "image": "@PROJECT_PATH@/assets/images/-mmf0548-1-2000x1335.jpeg",
-                "thumb": "@PROJECT_PATH@/assets/images/mmf0548-1-2000x1335-800x600.jpeg",
-                "alt": "",
-                "title": "",
-                "caption": "GLAS &amp; WAND PRODUCTEN LIJN&nbsp;",
-                "active": true
-              }
-            ]
-          },
-          "articleLayout": false,
-          "allItem": "All",
-          "_tags": [
-            "Theme"
-          ],
-          "_name": "gallery1",
-          "_anchor": "gallery1-5u"
-        },
-        {
-          "_params": {
-            "autoplay": true,
-            "fullScreen": true,
-            "paddingTop": 3,
-            "paddingBottom": 3,
-            "showBullets": true,
-            "bgColor": "#fff",
-            "timeout": 5,
-            "slides": [
-              {
-                "image": "@PROJECT_PATH@/assets/images/1600-save-1600x1200.jpg",
-                "active": true,
-                "showButtons": false,
-                "showText": false,
-                "showTitle": true,
-                "playVideo": false,
-                "videoUrl": "https://www.youtube.com/watch?v=uNCr7NdOJgw",
-                "title": "<span style=\"font-weight: normal;\">NEW BRAND FROM GLAS &amp; WAND&nbsp;</span>",
-                "overlay": true,
-                "contentAlign": "right",
-                "text": "Choose from the large selection of latest pre-made blocks - jumbotrons, hero images, parallax scrolling, video backgrounds, hamburger menu, sticky header and more.",
-                "buttons": " <a data-app-btn=\"true\" class=\"btn btn-lg btn-white btn-white-outline\" href=\"https://myalbum.com/album/qxGyJ7qGWk7k\" data-toolbar=\"-mbrBtnMove\">BEKIJK ONZE INTRODUCTIE&nbsp;</a>",
-                "alt": ""
-              },
-              {
-                "image": "@PROJECT_PATH@/assets/images/img-139-2000x1500.jpg",
-                "active": false,
-                "showButtons": false,
-                "showText": false,
-                "showTitle": true,
-                "playVideo": false,
-                "videoUrl": "https://www.youtube.com/watch?v=uNCr7NdOJgw",
-                "title": "<span style=\"font-weight: normal;\">NEW </span><br><span style=\"font-weight: normal;\">VITRI CRISTALLO TRANSPARENTE GLASS WALL CONCEPT&nbsp;</span>",
-                "overlay": true,
-                "contentAlign": "right",
-                "text": "Choose from the large selection of latest pre-made blocks - jumbotrons, hero images, parallax scrolling, video backgrounds, hamburger menu, sticky header and more.",
-                "buttons": "<a data-app-btn=\"true\" class=\"btn btn-lg btn-info\" href=\"https://mobirise.com\" data-toolbar=\"-mbrBtnMove\">FOR WINDOWS</a> ",
-                "alt": ""
-              }
-            ]
-          },
-          "articleLayout": false,
-          "_tags": [
-            "Theme"
-          ],
-          "_name": "slider",
-          "_styles": {
-            "H2": {
-              "text-align": "left",
-              "font-family": "'Roboto', sans-serif",
-              "googleLink": "https://fonts.googleapis.com/css?family=Roboto:400,300,700"
-            },
-            ".btn": {
-              "font-family": "'Roboto', sans-serif",
-              "googleLink": "https://fonts.googleapis.com/css?family=Roboto:400,300,700"
-            },
-            "SPAN": {
-              "font-size": "48px"
-            }
-          },
-          "_anchor": "slider-5z"
-        },
-        {
-          "_params": {
-            "showTitle": true,
-            "showText": false,
-            "showButtons": true,
-            "paddingTop": "2",
-            "paddingBottom": 2,
-            "bgImageRadio": false,
-            "bgImage": "@THEME_PATH@-blocks/components/_images/img_extHeader11_bg.jpg",
-            "parallax": false,
-            "bgColorRadio": true,
-            "bgColor": "#000000",
-            "bgText": "NEW THE BEAUTY OFF GLASS WALL SYTEMS ",
-            "bgTextStyle": "Ubuntu",
-            "bgTextColor": "#5e5546",
-            "bgTextSize": "100",
-            "bgVideoRadio": false,
-            "bgVideo": {
-              "url": "https://www.youtube.com/watch?v=uNCr7NdOJgw"
-            },
-            "overlay": true,
-            "overlayColor": "#000",
-            "overlayOpacity": 0.1
-          },
-          "title": "<span style=\"font-weight: normal;\">NIEUWE INOVATIE VAN &nbsp;GLAS &nbsp;WALL SYTEMS &nbsp;&nbsp;</span>",
-          "text": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Vel sunt, neque voluptatibus excepturi laboriosam possimus adipisci quidem dolores omnis, nemo dolore eligendi blanditiis voluptatem in, doloribus hic aperiam maiores fugit.",
-          "buttons": "<a data-app-btn=\"true\" class=\"btn btn-primary\" href=\"https://myalbum.com/album/54KeWjVtPmJK\" data-toolbar=\"-mbrBtnMove\">&nbsp; NIEUW BEKIJK HIER VITRI CRISTALLO TRANSPARENTE &nbsp;SYTEMS &nbsp;</a>",
-          "alias": "mobirise3-blocks/components",
-          "_tags": [
-            "Extension"
-          ],
-          "_name": "extMsg-box4",
-          "_styles": {
-            "SPAN": {
-              "text-align": "right",
-              "font-family": "'Roboto', sans-serif",
-              "googleLink": "https://fonts.googleapis.com/css?family=Roboto:400,300,700",
-              "font-size": "48px"
-            },
-            ".btn": {
-              "font-family": "'Roboto', sans-serif",
-              "googleLink": "https://fonts.googleapis.com/css?family=Roboto:400,300,700",
-              "font-size": "20px"
-            }
-          },
-          "_anchor": "extMsg-box4-5w"
-        },
-        {
-          "_inherit": "gallery1",
-          "_params": {
-            "showBullets": true,
-            "fullWidth": false,
-            "spacing": "4",
-            "paddingTop": 0,
-            "paddingBottom": 0,
-            "filterBgColor": false,
-            "bgColor": "#000000",
-            "showText": false,
-            "filter": false,
-            "images": [
-              {
-                "tags": "B2B GLAS WALL SYSYEMS 4 ",
-                "videoPreview": "@THEME_PATH@/components/_images/gallery/preview.jpg",
-                "playVideo": false,
-                "videoUrl": "https://www.youtube.com/watch?v=uNCr7NdOJgw",
-                "image": "@PROJECT_PATH@/assets/images/1600-save-1600x1200.jpg",
-                "thumb": "@PROJECT_PATH@/assets/images/1600-save-1600x1200-800x600.jpg",
-                "alt": "",
-                "title": "",
-                "caption": "GLAS &amp; WAND B2B GLASS WALL SYTEMS&nbsp;",
-                "active": false
-              },
-              {
-                "tags": "B2B GLAS WALL SYSYEMS 4 ",
-                "videoPreview": "@THEME_PATH@/components/_images/gallery/preview.jpg",
-                "playVideo": false,
-                "videoUrl": "https://www.youtube.com/watch?v=uNCr7NdOJgw",
-                "image": "@PROJECT_PATH@/assets/images/wall-3-1600-1600x1200.jpg",
-                "thumb": "@PROJECT_PATH@/assets/images/wall-3-1600-1600x1200-800x600.jpg",
-                "alt": "",
-                "title": "",
-                "caption": "GLAS &amp; WAND B2B GLASS WALL SYTEMS&nbsp;",
-                "active": false
-              },
-              {
-                "tags": "B2B GLAS WALL SYSYEMS 4 ",
-                "videoPreview": "@THEME_PATH@/components/_images/gallery/preview.jpg",
-                "playVideo": false,
-                "videoUrl": "https://www.youtube.com/watch?v=uNCr7NdOJgw",
-                "image": "@PROJECT_PATH@/assets/images/1600-save-vv-1600x1200.jpg",
-                "thumb": "@PROJECT_PATH@/assets/images/1600-save-vv-1600x1200-800x600.jpg",
-                "alt": "",
-                "title": "",
-                "caption": "GLAS &amp; WAND B2B GLASS WALL SYTEMS&nbsp;",
-                "active": true
-              },
-              {
-                "tags": "B2B GLAS WALL SYSYEMS 4 ",
-                "videoPreview": "@THEME_PATH@/components/_images/gallery/preview.jpg",
-                "playVideo": false,
-                "videoUrl": "https://www.youtube.com/watch?v=uNCr7NdOJgw",
-                "image": "@PROJECT_PATH@/assets/images/img-138-2000x1500.jpeg",
-                "thumb": "@PROJECT_PATH@/assets/images/img-138-2000x1500-800x600.jpeg",
-                "alt": "",
-                "title": "",
-                "caption": "GLAS &amp; WAND B2B GLASS WALL SYTEMS&nbsp;",
-                "active": false
-              }
-            ]
-          },
-          "_tags": [
-            "Theme"
-          ],
-          "articleLayout": false,
-          "allItem": "B2B GLASS WALL SYTEMS&nbsp;",
-          "_name": "gallery4",
-          "_styles": {
-            "LI": {
-              "text-align": "center",
-              "font-family": "'Roboto', sans-serif",
-              "googleLink": "https://fonts.googleapis.com/css?family=Roboto:400,300,700",
-              "font-size": "18px"
-            },
-            ".mbr-gallery-item > div > span": {
-              "color": "#ffffff"
-            }
-          },
-          "_anchor": "gallery4-5v"
-        },
-        {
-          "_params": {
-            "paddingTop": "4",
-            "paddingBottom": "4",
-            "bgImageRadio": false,
-            "bgImage": "@THEME_PATH@/components/_images/jumbotron.jpg",
-            "parallax": true,
-            "bgColorRadio": true,
-            "bgColor": "#000000",
-            "overlay": true,
-            "overlayColor": "#3C3C3C",
-            "overlayOpacity": 0.8
-          },
-          "buttons": "<a data-app-btn=\"true\" type=\"submit\" class=\"btn btn-sm btn-primary\" data-toolbar=\"-mbrLink,-mbrBtnAdd,-mbrBtnMove,-mbrBtnRemove\">Contact us</a>",
-          "text1": "<font color=\"#7c7c7c\" face=\"Montserrat, sans-serif\"><span style=\"font-size: 16px; letter-spacing: -1px;\"><b>GLAS &amp; WAND&nbsp;</b></span></font><br>Kopersteden 21&nbsp;<br>7547 TJ Enschede<br><br><br>\n<strong>Contacts</strong><br>\nEmail: info@glasenwand.nl&nbsp;<br>telefoon ; 053 -5721030&nbsp;<br>Mobiel ; &nbsp; &nbsp;06 53 772 934&nbsp;<br><br>Website : www.glasenwand.nl&nbsp;",
-          "text2": "<p class=\"mbr-contacts__text\"><strong>Links</strong></p><ul class=\"mbr-contacts__list\"><li>HOME&nbsp;</li><li>I<a href=\"page1.html\">NTERIEUR&nbsp;</a></li><li><a href=\"page 1.html\">EXTERIEUR&nbsp;</a></li><li><a href=\"page5.html\">GLASS &amp; WALL&nbsp;</a></li><li><a href=\"page4.html\">CONTAC</a>T&nbsp;</li></ul>",
-          "form": {
-            "title": "MESSAGE",
-            "action": "raymondterhuurne@gmail.com",
-            "alerts": {
-              "success": "Thanks for filling out form!"
-            },
-            "fields": {
-              "name": {
-                "visible": false,
-                "title": "Name",
-                "customTitle": "Name*"
-              },
-              "email": {
-                "visible": true,
-                "title": "Email",
-                "customTitle": "Email*"
-              },
-              "phone": {
-                "visible": false,
-                "title": "Phone",
-                "customTitle": "Phone"
-              },
-              "message": {
-                "title": "Message",
-                "customTitle": "Message"
-              }
-            }
-          },
-          "_tags": [
-            "Theme"
-          ],
-          "_name": "contacts4",
-          "_styles": {
-            ".mbr-contacts p": {
-              "color": "#c0a375"
-            },
-            ".btn": {
-              "font-size": "18px",
-              "font-family": "'Roboto', sans-serif",
-              "googleLink": "https://fonts.googleapis.com/css?family=Roboto:400,300,700"
-            },
-            ".mbr-contacts__text": {
-              "color": "#c0a375"
-            },
-            ".mbr-contacts__text UL": {
-              "font-family": "'Roboto', sans-serif",
-              "googleLink": "https://fonts.googleapis.com/css?family=Roboto:400,300,700",
-              "font-size": "16px"
-            }
-          },
-          "_anchor": "contacts4-5o"
         }
       ]
     }
